@@ -113,7 +113,7 @@ public class Tab1 extends Fragment {
     }
 
         private Double getFirebaseDataFromChild(final String child, final Integer pos) {
-            primary.child(child).addListenerForSingleValueEvent(new ValueEventListener() {
+            root.child(child).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 global = dataSnapshot.getValue(Double.class);
