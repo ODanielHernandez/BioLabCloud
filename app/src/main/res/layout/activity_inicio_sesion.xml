@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioSesion"
+    android:background="@drawable/background"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/logo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:text="Ingresa tu correo"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+
+            android:textAlignment="gravity"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_selector"
+            android:shadowColor="#A8A8A8"
+            android:shadowRadius="5"
+            android:textColor="#FFF"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:text="Ingresa tu contraseña"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+        />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:hint="Contraseña"
+
+            android:textAlignment="gravity"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_selector"
+            android:shadowColor="#A8A8A8"
+            android:shadowRadius="5"
+            android:textColor="#FFFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+        />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recordar Usuario"
+            android:textColor="@color/white"
+            android:buttonTint="@color/white"
+            android:textSize="18dp"
+            />
+
+        <com.spark.submitbutton.SubmitButton
+            android:textSize="12dp"
+            android:id="@+id/logIn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ingresar"
+            android:textColor="@color/white"
+            app:sub_btn_background="#00FFFFFF"
+            app:sub_btn_duration="3000"
+            app:sub_btn_line_color="#c59432"
+            app:sub_btn_ripple_color="#000"
+            app:sub_btn_tick_color="#FFF" />
+        <!--<Button
+            android:id="@+id/logIn"
+
+            android:text="Ingresar"
+
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:background="@drawable/buttonshape"
+            />-->
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

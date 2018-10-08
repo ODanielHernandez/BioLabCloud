@@ -1,0 +1,4 @@
+#Mon Oct 08 00:46:35 MDT 2018
+base.0=C\:\\Android\\BioLabCloud\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
+path.0=classes.dex
+renamed.0=classes.dex

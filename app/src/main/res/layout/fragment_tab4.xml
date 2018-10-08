@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/logo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Instrucciones de uso"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        />
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="0sp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="4dp"
+
+            android:layout_width="200dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="App Móvil"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        />
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="0sp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="4dp"
+
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            />
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/handchart"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Para el uso de la gráfica"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Las gráficas se actualizan cada hora, para evitar el sobreposicionamiento de información y solo mostrar la información necesaria.
+Para utilizar las gráficas, coloque su dedo izquierdo en la gráfica a mover, y con su dedo derecho desplaze."
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+    </LinearLayout>
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="0sp"
+            android:layout_marginTop="6dp"
+
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/touch"
+                android:layout_gravity="center"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Para ver los datos del humidor en tiempo real"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="Para ver los datos del humidor desde la primera pesteña. hay dos formas:"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="1.-Con el dedo desliza hacia abajo en la zona donde están los valores."
+                    android:textColor="@color/white"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="2.-Presiona el botón de actualizar."
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="0sp"
+            android:layout_marginTop="15dp"
+
+            android:layout_width="200dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Humidor"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            />
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="0sp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="4dp"
+
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            />
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/humidor"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="Para el cuidado del humidor"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="El humidor requiere que se rellene de agua destilada cada 2 meses y que se cambie la esponja cada año."
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="0sp"
+            android:layout_marginTop="6dp"
+
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            >
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/maintenance"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="En caso de requerir asistencia"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textAlignment="center"
+                    android:text="Puedes contactar a servicio al cliente con los siguientes datos."
+                    android:textColor="@color/white"
+                    />
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textAlignment="center"
+                android:text="+52(668)-8201605"
+                android:textColor="@color/white"
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textAlignment="center"
+                    android:text="contacto@dicigar.com"
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

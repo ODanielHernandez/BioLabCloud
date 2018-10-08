@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quienes somos"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:textSize="0sp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="6dp"
+
+        android:layout_width="150dp"
+        android:layout_height="2dp"
+        android:background="@drawable/line"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Dicigar es una empresa 100% Mexicana dedicada a la innovación de Sistemas Tecnológicos Aplicados de Humidores Inteligentes que usan Redes Neuronales y técnicas de Machine Learning para garantizar niveles de humedad y temperatura exactos para la conservación y añejamiento de puros. El Humidor DiCigar garantiza un sabor exquisito a gusto y preferencia de cada cliente."
+        />
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="0sp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="6dp"
+
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            />
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Teléfono de Contacto"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:text="Dr. Cesar Augusto Isaza"
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+52(442)-1814009"
+                android:gravity="center"
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Ing. Oscar Daniel Hernandez"
+                android:gravity="center"
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+52(668)-8201605"
+                android:gravity="center"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                >
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/phonecall"
+                    />
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/whatsapp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/escudo"
+            />
+    </LinearLayout>
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="0sp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="4dp"
+
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:text="Siguenos en nuestras redes sociales"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correo de Contacto"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="contacto@diCigar.com"
+                />
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/facebook"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/facebook"
+            android:layout_marginRight="10dp"
+            />
+        <ImageButton
+            android:id="@+id/instagram"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/instagram"
+            android:layout_marginRight="10dp"
+            />
+        <ImageButton
+            android:id="@+id/reddit"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/reddit"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
