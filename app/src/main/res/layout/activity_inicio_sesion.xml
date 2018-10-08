@@ -98,8 +98,8 @@
             android:textColor="@color/white"
             app:sub_btn_background="#00FFFFFF"
             app:sub_btn_duration="3000"
-            app:sub_btn_line_color="#c59432"
-            app:sub_btn_ripple_color="#000"
+            app:sub_btn_line_color="#75e09c"
+            app:sub_btn_ripple_color="#FFF"
             app:sub_btn_tick_color="#FFF" />
         <!--<Button
             android:id="@+id/logIn"

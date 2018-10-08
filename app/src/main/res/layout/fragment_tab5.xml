@@ -141,14 +141,14 @@ Para utilizar las gráficas, coloque su dedo izquierdo en la gráfica a mover, y
                     android:textColor="@color/white"
                     android:gravity="center"
                     android:textStyle="bold"
-                    android:text="Para ver los datos del humidor en tiempo real"
+                    android:text="Para ver los datos del Laboratorio en tiempo real"
                     android:textSize="15dp"
                     />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
-                    android:text="Para ver los datos del humidor desde la primera pesteña. hay dos formas:"
+                    android:text="Para ver los datos del Laboratorio desde la primera pesteña. hay dos formas:"
                     android:textColor="@color/white"
                     />
                 <TextView
@@ -187,7 +187,7 @@ Para utilizar las gráficas, coloque su dedo izquierdo en la gráfica a mover, y
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Humidor"
+            android:text="RoSystem"
             android:textColor="@color/white"
             android:textSize="22dp"
             />
@@ -230,7 +230,7 @@ Para utilizar las gráficas, coloque su dedo izquierdo en la gráfica a mover, y
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
                     android:gravity="center"
-                    android:text="Para el cuidado del humidor"
+                    android:text="Para el cuidado del RoSystem"
                     android:textStyle="bold"
                     android:textSize="15dp"
                     />
@@ -238,7 +238,7 @@ Para utilizar las gráficas, coloque su dedo izquierdo en la gráfica a mover, y
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
-                    android:text="El humidor requiere que se rellene de agua destilada cada 2 meses y que se cambie la esponja cada año."
+                    android:text="El RoSystem requiere que se de mantemiento cada año, para prevenir mal funcionamiento del sistema."
                     android:textColor="@color/white"
                     />
             </LinearLayout>
@@ -306,7 +306,7 @@ Para utilizar las gráficas, coloque su dedo izquierdo en la gráfica a mover, y
                     android:layout_width="wrap_content"
                     android:layout_height="fill_parent"
                     android:textAlignment="center"
-                    android:text="contacto@dicigar.com"
+                    android:text="servicios@fragmentoestudio.com"
                     android:textColor="@color/white"
                     />
             </LinearLayout>

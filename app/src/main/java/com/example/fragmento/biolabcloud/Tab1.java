@@ -45,7 +45,7 @@ public class Tab1 extends Fragment {
     ListView lista;
     SwipeRefreshLayout nswipeRefreshLayout;
 
-    int[] datosImg = {R.drawable.humidity,R.drawable.thermometerc,R.drawable.thermometerf,R.drawable.humidity};
+    int[] datosImg = {R.drawable.gauge,R.drawable.humidity,R.drawable.thermometerc,R.drawable.firealarm};
 
     private OnFragmentInteractionListener mListener;
 
@@ -117,7 +117,7 @@ public class Tab1 extends Fragment {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 global = dataSnapshot.getValue(Double.class);
-                Toast.makeText(getActivity().getApplicationContext(), child+" : "+ global, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getActivity().getApplicationContext(), child+" : "+ global, Toast.LENGTH_SHORT).show();
                 arreglo[pos] = global;
                  }
             @Override

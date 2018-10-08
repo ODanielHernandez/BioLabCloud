@@ -112,9 +112,9 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Us
 	android:label
 		ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:10:9-50
+		ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:8:9-39
+		ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:8:9-49
 	android:allowBackup
 		ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme

@@ -93,27 +93,6 @@ public class Tab2 extends Fragment {
                 }
             }
         });
-        /*LineGraphSeries<DataPoint> series = new LineGraphSeries<>(new DataPoint[] {
-                new DataPoint(0, 1),
-                new DataPoint(1, 5),
-                new DataPoint(2, 3),
-                new DataPoint(3, 2),
-                new DataPoint(4, 6)
-        });
-        LineGraphSeries<DataPoint> series2 = new LineGraphSeries<>(new DataPoint[] {
-                new DataPoint(0, 6),
-                new DataPoint(1, 8),
-                new DataPoint(2, 4),
-                new DataPoint(3, 6),
-                new DataPoint(4, 1)
-        });
-        LineGraphSeries<DataPoint> series3 = new LineGraphSeries<>(new DataPoint[] {
-                new DataPoint(0, 2),
-                new DataPoint(1, 5),
-                new DataPoint(2, 7),
-                new DataPoint(3, 2),
-                new DataPoint(4, 10)
-        });*/
 
         hum.getGridLabelRenderer().setGridColor(Color.WHITE);
         hum.getGridLabelRenderer().setHorizontalLabelsColor(Color.WHITE);
@@ -128,9 +107,9 @@ public class Tab2 extends Fragment {
 
 
         series.setTitle("Humedad");
-        series.setColor(Color.rgb(189,131,16));
+        series.setColor(Color.rgb(117,224,156));
         series.setDrawBackground(true);
-        series.setBackgroundColor(Color.argb(20, 189, 131, 16));
+        series.setBackgroundColor(Color.argb(20, 117, 224, 156));
         series.setDrawDataPoints(true);
         series.setDataPointsRadius(10f);
 
@@ -172,15 +151,11 @@ public class Tab2 extends Fragment {
 
 
         series2.setTitle("Temp C°");
-        series2.setColor(Color.rgb(227,184,109));
-        series3.setTitle("Temp F°");
-        series3.setColor(Color.rgb(189,131,16));
+        series2.setColor(Color.rgb(117,224,156));
         series2.setDrawBackground(true);
-        series2.setBackgroundColor(Color.argb(20, 189, 131, 16));
+        series2.setBackgroundColor(Color.argb(20, 117, 224, 156));
         series2.setDrawDataPoints(true);
         series2.setDataPointsRadius(10f);
-        series3.setDrawDataPoints(true);
-        series3.setDataPointsRadius(10f);
 
 
         hum.getLegendRenderer().setVisible(true);
@@ -199,7 +174,6 @@ public class Tab2 extends Fragment {
 
         hum.addSeries(series);
         temp.addSeries(series2);
-        temp.addSeries(series3);
 
 
 
