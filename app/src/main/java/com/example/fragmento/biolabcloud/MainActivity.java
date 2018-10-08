@@ -36,11 +36,11 @@ public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentIn
         setContentView(R.layout.activity_main);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabLayout);
-        tabLayout.addTab(tabLayout.newTab().setText("Humidor"));
-        tabLayout.addTab(tabLayout.newTab().setText("Historial"));
-        tabLayout.addTab(tabLayout.newTab().setText("Acerca"));
+        tabLayout.addTab(tabLayout.newTab().setText("Estado"));
+        tabLayout.addTab(tabLayout.newTab().setText("Datos"));
+        tabLayout.addTab(tabLayout.newTab().setText("BioLab"));
+        tabLayout.addTab(tabLayout.newTab().setText("Chat"));
         tabLayout.addTab(tabLayout.newTab().setText("Ayuda"));
-        tabLayout.addTab(tabLayout.newTab().setText("Otro"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);

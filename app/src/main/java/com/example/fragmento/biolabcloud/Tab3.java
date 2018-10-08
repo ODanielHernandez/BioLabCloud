@@ -28,7 +28,7 @@ public class Tab3 extends Fragment {
         View v = inflater.inflate(R.layout.fragment_tab3, container, false);
 
 
-        ImageButton facebook = (ImageButton) v.findViewById(R.id.facebook);
+        /*ImageButton facebook = (ImageButton) v.findViewById(R.id.facebook);
         ImageButton instagram = (ImageButton) v.findViewById(R.id.instagram);
         ImageButton reddit = (ImageButton) v.findViewById(R.id.reddit);
 
@@ -56,7 +56,7 @@ public class Tab3 extends Fragment {
                 startActivity(viewIntent);
             }
         });
-
+*/
         return v;
     }
 
