@@ -9,23 +9,23 @@ public class PointValue {
     public PointValue() {
     }
 
-    public PointValue(float humid,float tempC,float tempF, long time) {
-        this.Humidity = tempC;
-        this.Temp = tempF;
-        this.Bmp = humid;
+    public PointValue(float Humidity,float Temp,float Bmp, long time) {
+        this.Humidity = Humidity;
+        this.Temp = Temp;
+        this.Bmp = Bmp;
         this.time = time;
     }
 
-    public float getTempC() {
-        return Humidity;
-    }
-
-    public float getTempF() {
+    public float getTemp() {
         return Temp;
     }
 
-    public float gethumid() {
+    public float getBmp() {
         return Bmp;
+    }
+
+    public float getHumidity() {
+        return Humidity;
     }
 
     public long gettime() {

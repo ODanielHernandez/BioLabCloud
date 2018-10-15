@@ -14,7 +14,9 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CompoundButton;
 import android.widget.ListView;
+import android.widget.Switch;
 import android.widget.Toast;
 
 import com.example.fragmento.biolabcloud.modelo.Adaptador;
@@ -38,6 +40,7 @@ public class Tab1 extends Fragment {
     private FirebaseAuth.AuthStateListener firebaseAuthListener;
 
     SubmitButton btnData, logOut;
+    Switch luz, extractor;
     DatabaseReference root, primary;
     Double arreglo[] = new Double[4];
     Double Humidity,Temp,Bmp,humo;
@@ -65,6 +68,8 @@ public class Tab1 extends Fragment {
         logOut = (SubmitButton) v.findViewById(R.id.logOut);
         btnData =  (SubmitButton) v.findViewById(R.id.recibirData);
         lista = (ListView) v.findViewById(R.id.lista);
+        luz = (Switch) v.findViewById(R.id.luz);
+        extractor = (Switch) v.findViewById(R.id.extractor);
         nswipeRefreshLayout = (SwipeRefreshLayout) v.findViewById(R.id.swiperefresh);
 
 
@@ -88,10 +93,11 @@ public class Tab1 extends Fragment {
             @Override
             public void onClick(View view) {
                 actualizarDatosFirebase();
+                getFirebaseDataForAct("Act1",luz);
+                getFirebaseDataForAct("Act2",extractor);
                 guardarDatosFirebase();
             }
         });
-
 
         nswipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
@@ -102,7 +108,14 @@ public class Tab1 extends Fragment {
             }
         });
 
-        //actualizarDatosFirebase();
+        getFirebaseDataForAct("Act1",luz);
+        getFirebaseDataForAct("Act2",extractor);
+
+        StateSwitchChanger(luz,"Act1");
+        StateSwitchChanger(extractor,"Act2");
+
+
+        actualizarDatosFirebase();
         recuperarDatosFirebase();
         return v;
     }
@@ -110,6 +123,39 @@ public class Tab1 extends Fragment {
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
+    }
+
+    private Switch StateSwitchChanger(final Switch value, final String child){
+        value.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(value.isChecked()){
+                    root.child(child).setValue(0);
+                }else{
+                    root.child(child).setValue(1);
+                }
+            }
+        });
+        return null;
+    }
+
+    private Integer getFirebaseDataForAct(final String child, final Switch actuador){
+        root.child(child).addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                int valor = dataSnapshot.getValue(int.class);
+                if(valor==1){
+                    actuador.setChecked(false);
+                }else{
+                    actuador.setChecked(true);
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+                Log.d("error", "onCancelled: "+databaseError.getMessage());
+            }
+        });
+        return null;
     }
 
         private Double getFirebaseDataFromChild(final String child, final Integer pos) {
@@ -133,6 +179,8 @@ public class Tab1 extends Fragment {
     public void onResume() {
         super.onResume();
         recuperarDatosFirebase();
+        getFirebaseDataForAct("Act1",luz);
+        getFirebaseDataForAct("Act2",extractor);
     }
 
     public void actualizarDatosFirebase(){
@@ -231,6 +279,8 @@ public class Tab1 extends Fragment {
         super.onStart();
         FirebaseAuth.getInstance().addAuthStateListener(firebaseAuthListener);
         recuperarDatosFirebase();
+        getFirebaseDataForAct("Act1",luz);
+        getFirebaseDataForAct("Act2",extractor);
     }
 
     @Override

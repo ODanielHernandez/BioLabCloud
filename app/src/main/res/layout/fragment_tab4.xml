@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
-            android:hint="Your Message:"
+            android:hint="Escribe tu mensaje:"
             android:textColorHint="@color/white"
             android:imeOptions="actionDone"
             android:inputType="textShortMessage" />

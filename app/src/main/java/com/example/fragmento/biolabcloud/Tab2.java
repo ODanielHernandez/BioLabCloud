@@ -1,5 +1,6 @@
 package com.example.fragmento.biolabcloud;
 
+import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
 import android.net.Uri;
@@ -10,7 +11,9 @@ import android.text.format.DateFormat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
+import com.example.fragmento.biolabcloud.modelo.Adaptador;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -24,8 +27,14 @@ import com.jjoe64.graphview.GridLabelRenderer;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.StringTokenizer;
 
 
 public class Tab2 extends Fragment {
@@ -33,9 +42,10 @@ public class Tab2 extends Fragment {
     DatabaseReference Freference, Freference2, Freference3;
     FirebaseDatabase Fdatabase;
 
-    long firstDate = 1532581200;
 
-    GraphView hum,temp;
+    GraphView hum,temp,pres;
+    Double Humidity,Temp,Bmp,Humo;
+    int cont=0;
     LineGraphSeries series,series2,series3;
 
     SimpleDateFormat sdf = new SimpleDateFormat("MM/dd-hh");
@@ -55,9 +65,7 @@ public class Tab2 extends Fragment {
         FirebaseUser userid = FirebaseAuth.getInstance().getCurrentUser() ;
 
         Fdatabase = FirebaseDatabase.getInstance();
-        Freference = Fdatabase.getReference("Users").child(userid.getUid()).child("iHumidStore");
-        Freference2 = Fdatabase.getReference("Users").child(userid.getUid()).child("iHumidStoreB");
-        Freference3 = Fdatabase.getReference("Users").child(userid.getUid()).child("iHumidStoreC");
+        Freference = Fdatabase.getReference("Data").child("time");
 
 
         hum = (GraphView) v.findViewById(R.id.hum);
@@ -177,7 +185,7 @@ public class Tab2 extends Fragment {
 
 
 
-
+        recuperarDatosFirebase();
         return v;
     }
 
@@ -190,63 +198,105 @@ public class Tab2 extends Fragment {
         Freference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                DataPoint[] dp= new DataPoint[(int) dataSnapshot.getChildrenCount()];
-                int index=0;
 
                 for(DataSnapshot myDataSnapshot : dataSnapshot.getChildren()){
                     PointValue pointValue = myDataSnapshot.getValue(PointValue.class);
+                    guardarDatosFirebaseH(pointValue.getHumidity(),pointValue.gettime());
+                    guardarDatosFirebaseT(pointValue.getTemp(),pointValue.gettime());
+                    guardarDatosFirebaseB(pointValue.getBmp(),pointValue.gettime());
+
+                    if(cont == 9){
+                        String[] Datos = getActivity().fileList();
+                        File file=new File(getActivity().getFilesDir().getAbsolutePath()+"/"+ "Datos.txt");
+                        if(file.exists())file.delete();
+                    }else{
+                        cont++;
+                    }
+                    //JALAR DATOS DE GRÁFICA y ALMACENAR EN TXT
+
+                    /*PointValue pointValue = myDataSnapshot.getValue(PointValue.class);
                     dp[index]= new DataPoint(pointValue.gettime(),pointValue.gethumid());
-                    index++;
+                    */
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+    }
+
+    public void guardarDatosFirebaseH(double valor, long tiempo){
+        try {
+            OutputStreamWriter archivo = new OutputStreamWriter(getActivity().openFileOutput(
+                    "Datos.txt", Activity.MODE_PRIVATE));
+            archivo.write( String.valueOf(valor)  + "/" + String.valueOf(tiempo));
+            archivo.flush();
+            archivo.close();
+        } catch (IOException e) {
+        }
+    }
+    public void guardarDatosFirebaseT(double valor, long tiempo){
+        try {
+            OutputStreamWriter archivo = new OutputStreamWriter(getActivity().openFileOutput(
+                    "Datos2.txt", Activity.MODE_PRIVATE));
+            archivo.write( String.valueOf(valor)  + "/" + String.valueOf(tiempo));
+            archivo.flush();
+            archivo.close();
+        } catch (IOException e) {
+        }
+    }
+    public void guardarDatosFirebaseB(double valor, long tiempo){
+        try {
+            OutputStreamWriter archivo = new OutputStreamWriter(getActivity().openFileOutput(
+                    "Datos3.txt", Activity.MODE_PRIVATE));
+            archivo.write( String.valueOf(valor)  + "/" + String.valueOf(tiempo) + "/n");
+            archivo.flush();
+            archivo.close();
+        } catch (IOException e) {
+        }
+    }
+
+    private boolean existe(String[] Datos, String archbusca) {
+        for (int f = 0; f < Datos.length; f++)
+            if (archbusca.equals(Datos[f]))
+                return true;
+        return false;
+    }
+
+    public void recuperarDatosFirebase(){
+        String[] Datos = getActivity().fileList();
+
+        if (existe(Datos, "Datos.txt"))
+            try {
+                InputStreamReader archivo = new InputStreamReader(
+                        getActivity().openFileInput("Datos.txt"));
+                BufferedReader br = new BufferedReader(archivo);
+                String linea = br.readLine();
+                String todo = "";
+                DataPoint[] dp= new DataPoint[10];
+                int index= 0;
+                while (linea != null) {
+
+                    StringTokenizer tokens = new StringTokenizer(todo, "/");
+                    String Humedad = tokens.nextToken();
+                    String tiempo = tokens.nextToken();
+
+                        dp[index]= new DataPoint(Float.valueOf(tiempo),Long.valueOf(Humedad));
+
+                        index++;
+                    linea = br.readLine();
                 }
                 series.resetData(dp);
+                br.close();
+                archivo.close();
+
+
+
+            } catch (IOException e) {
             }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
-            }
-        });
-
-        Freference2.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                DataPoint[] dp= new DataPoint[(int) dataSnapshot.getChildrenCount()];
-                int index=0;
-
-                for(DataSnapshot myDataSnapshot : dataSnapshot.getChildren()){
-                    PointValue pointValue = myDataSnapshot.getValue(PointValue.class);
-                    dp[index]= new DataPoint(pointValue.gettime(),pointValue.getTempC());
-                    index++;
-                }
-                series2.resetData(dp);
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
-            }
-        });
-
-        Freference3.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                DataPoint[] dp= new DataPoint[(int) dataSnapshot.getChildrenCount()];
-                int index=0;
-
-                for(DataSnapshot myDataSnapshot : dataSnapshot.getChildren()){
-                    PointValue pointValue = myDataSnapshot.getValue(PointValue.class);
-                    dp[index]= new DataPoint(pointValue.gettime(),pointValue.getTempF());
-                    index++;
-                }
-                series3.resetData(dp);
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
-            }
-        });
-
     }
 
 
