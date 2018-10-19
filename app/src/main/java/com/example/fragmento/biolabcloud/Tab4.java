@@ -3,6 +3,8 @@ package com.example.fragmento.biolabcloud;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,6 +20,8 @@ import com.ibm.watson.developer_cloud.conversation.v1.model.MessageRequest;
 import com.ibm.watson.developer_cloud.conversation.v1.model.MessageResponse;
 import com.ibm.watson.developer_cloud.http.ServiceCallback;
 
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class Tab4 extends Fragment {
@@ -25,8 +29,10 @@ public class Tab4 extends Fragment {
     private OnFragmentInteractionListener mListener;
     private static final String TAG = "Tab4";
     private ConversationService myConversationService = null;
-    private TextView chatDisplayTV;
+    private RecyclerView chatDisplayTV;
     private EditText userStatementET;
+    List<ReponseMessage> responseMessagesList;
+    MessageAdapter messageAdapter;
     private final String IBM_USERNAME = "f9e374d0-fa06-4d80-9467-6f83d8e5f116";
     private final String IBM_PASSWORD = "1YIZ2CaWXU02";
     private final String IBM_WORKSPACE_ID = "beeaf619-87a3-4ee3-97b8-e71265877f30";
@@ -43,7 +49,10 @@ public class Tab4 extends Fragment {
         final View v = inflater.inflate(R.layout.fragment_tab4, container, false);
         chatDisplayTV = v.findViewById(R.id.tv_chat_display);
         userStatementET = v.findViewById(R.id.et_user_statement);
-
+        responseMessagesList = new ArrayList<>();
+        messageAdapter = new MessageAdapter(responseMessagesList);
+        chatDisplayTV.setLayoutManager(new LinearLayoutManager(v.getContext(), LinearLayoutManager.VERTICAL, false));
+        chatDisplayTV.setAdapter(messageAdapter);
         //instantiating IBM Watson Conversation Service
         myConversationService =
                 new ConversationService(
@@ -53,6 +62,57 @@ public class Tab4 extends Fragment {
                 );
 
         userStatementET.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+            @Override
+            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                if(actionId == EditorInfo.IME_ACTION_DONE){
+                    final String userStatement = userStatementET.getText().toString();
+
+
+                    ReponseMessage message = new ReponseMessage(userStatement.toString(),true);
+                    responseMessagesList.add(message);
+                    messageAdapter.notifyDataSetChanged();
+
+                    MessageRequest request = new MessageRequest.Builder()
+                            .inputText(userStatement)
+                            .build();
+
+                    myConversationService
+                            .message(IBM_WORKSPACE_ID, request)
+                            .enqueue(new ServiceCallback<MessageResponse>() {
+                                @Override
+                                public void onResponse(MessageResponse response) {
+                                    final String botStatement = response.getText().get(0);
+                                    getActivity().runOnUiThread(new Runnable() {
+                                        @Override
+                                        public void run() {
+                                            ReponseMessage message2 = new ReponseMessage(botStatement.toString(),false);
+                                            responseMessagesList.add(message2);
+                                            messageAdapter.notifyDataSetChanged();
+                                        }
+                                    });
+
+
+                                }
+
+                                @Override
+                                public void onFailure(Exception e) {
+                                    Log.d(TAG, e.getMessage());
+                                }
+                            });
+
+
+                    messageAdapter.notifyDataSetChanged();
+                    userStatementET.setText("");
+                    if(!isVisibles()){
+                        chatDisplayTV.smoothScrollToPosition(messageAdapter.getItemCount());
+                    }
+                }
+                return true;
+            }
+        });
+
+
+       /* userStatementET.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView tv, int action, KeyEvent keyEvent) {
                 if (action == EditorInfo.IME_ACTION_DONE) {
@@ -94,11 +154,21 @@ public class Tab4 extends Fragment {
                 }
                 return false;
             }
-        });
+        });*/
+
+
 
        return v;
 
     }
+
+    public boolean isVisibles(){
+        LinearLayoutManager linearLayoutManager = (LinearLayoutManager) chatDisplayTV.getLayoutManager();
+        int positionOfLastVisibleItem = linearLayoutManager.findLastCompletelyVisibleItemPosition();
+        int itemCount = chatDisplayTV.getAdapter().getItemCount();
+        return (positionOfLastVisibleItem>=itemCount);
+    }
+
 
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name

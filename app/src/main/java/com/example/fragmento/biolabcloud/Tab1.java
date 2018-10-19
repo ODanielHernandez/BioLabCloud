@@ -42,11 +42,12 @@ public class Tab1 extends Fragment {
     SubmitButton btnData, logOut;
     Switch luz, extractor;
     DatabaseReference root, primary;
-    Double arreglo[] = new Double[4];
-    Double Humidity,Temp,Bmp,humo;
-    Double global; // variable global para hacer giribillas
+    Integer arreglo[] = new Integer[4];
+    Integer Humidity,Temp,Bmp,humo;
+    Integer global; // variable global para hacer giribillas
     ListView lista;
     SwipeRefreshLayout nswipeRefreshLayout;
+    String valorHumo;
 
     int[] datosImg = {R.drawable.gauge,R.drawable.humidity,R.drawable.thermometerc,R.drawable.firealarm};
 
@@ -142,7 +143,7 @@ public class Tab1 extends Fragment {
         root.child(child).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                int valor = dataSnapshot.getValue(int.class);
+                int valor = dataSnapshot.getValue(Integer.class);
                 if(valor==1){
                     actuador.setChecked(false);
                 }else{
@@ -158,18 +159,18 @@ public class Tab1 extends Fragment {
         return null;
     }
 
-        private Double getFirebaseDataFromChild(final String child, final Integer pos) {
+        private Integer getFirebaseDataFromChild(final String child, final Integer pos) {
             primary.child(child).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                global = dataSnapshot.getValue(Double.class);
+                global = dataSnapshot.getValue(Integer.class);
                 //Toast.makeText(getActivity().getApplicationContext(), child+" : "+ global, Toast.LENGTH_SHORT).show();
                 arreglo[pos] = global;
                  }
             @Override
             public void onCancelled(DatabaseError databaseError) {
                 Log.d("error", "onCancelled: "+databaseError.getMessage());
-                global = 0.0;
+                global = 0;
             }
         });
         return null;
@@ -188,19 +189,32 @@ public class Tab1 extends Fragment {
         Humidity = getFirebaseDataFromChild("Humidity", 1);
         Temp= getFirebaseDataFromChild("Temp", 2);
         humo= getFirebaseDataFromChild("humo", 3);
+
         Bmp = arreglo[0];
         Humidity = arreglo[1];
         Temp = arreglo[2];
         humo = arreglo[3];
+
         String [][] datos = {
-                {"Presión Atmosferica", String.valueOf(Bmp)},
-                {"Humedad Relativa", String.valueOf(Humidity)},
-                {"Temperatura", String.valueOf(Temp)},
+                {"Presión Atmosferica", String.valueOf(Bmp).concat(" atm")},
+                {"Humedad Relativa", String.valueOf(Humidity).concat("%")},
+                {"Temperatura", String.valueOf(Temp).concat("°C")},
                 {"Humo", String.valueOf(humo)}
 
         };
         lista.setAdapter(new Adaptador(getActivity().getApplicationContext(),datos,datosImg));
 
+    }
+    public String convercion(Integer valHum){
+        String resultado="";
+
+        if(valHum == 1){
+             resultado = "Despejado";
+        }else if (valHum == 0){
+            resultado = "ALERTA";
+        }
+
+        return resultado;
     }
 
     public void guardarDatosFirebase(){
@@ -246,11 +260,12 @@ public class Tab1 extends Fragment {
                 String Temperatura = tokens.nextToken();
                 String humo = tokens.nextToken();
 
+
                 String [][] datos = {
-                        {"Presión Atmosferica", String.valueOf(Bmp)},
-                        {"Humedad Relativa", String.valueOf(Humedad)},
-                        {"Temperatura", String.valueOf(Temperatura)},
-                        {"Humo", String.valueOf(humo)}
+                        {"Presión Atmosferica", String.valueOf(Bmp).concat(" atm")},
+                        {"Humedad Relativa", String.valueOf(Humedad).concat("%")},
+                        {"Temperatura", String.valueOf(Temperatura).concat("°C")},
+                        {"Humo", humo}
 
                 };
                 lista.setAdapter(new Adaptador(getActivity().getApplicationContext(),datos,datosImg));

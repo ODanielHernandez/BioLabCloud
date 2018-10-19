@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-36:12
+ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-40:12
 MERGED from [me.spark:submitbutton:1.0.1] C:\Users\hharm\.gradle\caches\transforms-1\files-1.1\submitbutton-1.0.1.aar\135637d4ae627f6235ca91ef744b59eb\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\hharm\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\2ec882a69fbf66d057e3b03c6a77df0a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\hharm\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\8930f30d2e89851a1be256c5363059b8\AndroidManifest.xml:17:1-22:12
@@ -45,22 +45,22 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\hharm\.gradle\caches
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\hharm\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\b9e0063e312a0ec79b46f643c0e6fce5\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\hharm\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4aabc1f944c7ac226dd2a295dd1f17df\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\hharm\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\1f7f51097485b6c308621363e49dcf6b\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:4:5-48
 		INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml
-		ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-36:12
+		ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-40:12
 		INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml
-		ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-36:12
+		ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-40:12
 		INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:2:11-69
@@ -79,7 +79,7 @@ MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\h
 	android:name
 		ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:7:5-35:19
+ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:7:5-39:19
 MERGED from [me.spark:submitbutton:1.0.1] C:\Users\hharm\.gradle\caches\transforms-1\files-1.1\submitbutton-1.0.1.aar\135637d4ae627f6235ca91ef744b59eb\AndroidManifest.xml:11:5-15:19
 MERGED from [me.spark:submitbutton:1.0.1] C:\Users\hharm\.gradle\caches\transforms-1\files-1.1\submitbutton-1.0.1.aar\135637d4ae627f6235ca91ef744b59eb\AndroidManifest.xml:11:5-15:19
 MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\hharm\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\a92568e219a2be5d365c89949f99311a\AndroidManifest.xml:7:5-20
@@ -174,6 +174,12 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:32:17-77
 	android:name
 		ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:32:27-74
+meta-data#preloaded_fonts
+ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:36:9-38:57
+	android:resource
+		ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:38:13-54
+	android:name
+		ADDED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml:37:13-43
 uses-sdk
 INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Android\BioLabCloud\app\src\main\AndroidManifest.xml
