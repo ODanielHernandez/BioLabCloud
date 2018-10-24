@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "868081393091",
+    "firebase_url": "https://biolabcloud.firebaseio.com",
+    "project_id": "biolabcloud",
+    "storage_bucket": "biolabcloud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868081393091:android:baa3cbc6e22e26f3",
+        "android_client_info": {
+          "package_name": "com.example.fragmento.biolabcloud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868081393091-5c5ehbogmghl1buoe6vgh5ns8fae5am2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fragmento.biolabcloud",
+            "certificate_hash": "8e47502a6cf234286c5264cd9c6dadbab505485c"
+          }
+        },
+        {
+          "client_id": "868081393091-huu2ns8n594g509i9kvasdfb1abffd2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOdLppuYg3ZE5XZ_FTaNS4ybU9AgXVH10"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868081393091-huu2ns8n594g509i9kvasdfb1abffd2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
