@@ -28,7 +28,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.spark.submitbutton.SubmitButton;
 
 
-public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentInteractionListener,Tab2.OnFragmentInteractionListener,Tab3.OnFragmentInteractionListener,Tab4.OnFragmentInteractionListener{
+public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentInteractionListener,Tab3.OnFragmentInteractionListener,Tab4.OnFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentIn
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabLayout);
         tabLayout.addTab(tabLayout.newTab().setText("Estado"));
-        tabLayout.addTab(tabLayout.newTab().setText("Datos"));
         tabLayout.addTab(tabLayout.newTab().setText("BioLab"));
         tabLayout.addTab(tabLayout.newTab().setText("Chat"));
         tabLayout.addTab(tabLayout.newTab().setText("Ayuda"));

@@ -19,15 +19,12 @@ public class PageAdapter extends FragmentStatePagerAdapter{
                 Tab1 tab1 = new Tab1();
                 return tab1;
             case 1:
-                Tab2 tab2 = new Tab2();
-                return tab2;
-            case 2:
                  Tab3 tab3 = new Tab3();
                  return tab3;
-            case 3:
+            case 2:
                  Tab4 tab4 = new Tab4();
                  return tab4;
-            case 4:
+            case 3:
                 Tab5 tab5 = new Tab5();
                 return tab5;
             default:
