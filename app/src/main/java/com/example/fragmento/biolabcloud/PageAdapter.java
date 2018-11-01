@@ -16,10 +16,10 @@ public class PageAdapter extends FragmentStatePagerAdapter{
     public Fragment getItem(int position) {
         switch (position){
             case 0:
-                Tab1 tab1 = new Tab1();
+                Tab3 tab1 = new Tab3();
                 return tab1;
             case 1:
-                 Tab3 tab3 = new Tab3();
+                 Tab1 tab3 = new Tab1();
                  return tab3;
             case 2:
                  Tab4 tab4 = new Tab4();

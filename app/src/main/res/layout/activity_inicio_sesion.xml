@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".InicioSesion"
-    android:background="@drawable/background"
+    android:background="@drawable/background2"
     >
 
 
@@ -111,7 +111,7 @@
 
             android:layout_width="110dp"
             android:layout_height="60dp"
-            android:background="@drawable/buttonshape"
+            android:background2="@drawable/buttonshape"
             />-->
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -4,4 +4,9 @@
     <color name="colorPrimaryDark">#009f3b</color>
     <color name="colorPrimaryCenter">#0ca13b</color>
     <color name="colorAccent">#fff</color>
+
+    <style name="TextColor">
+        <item name="android:textColor">#fff</item>
+    </style>
+
 </resources>

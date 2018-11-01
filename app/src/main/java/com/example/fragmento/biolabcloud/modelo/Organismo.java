@@ -1,13 +1,15 @@
 package com.example.fragmento.biolabcloud.modelo;
 
+import java.io.Serializable;
 
-public class Organismo {
+public class Organismo implements Serializable{
     private String uid;
     private String nombre;
     private String descripcion;
     private String familia;
     private String lugar;
-
+    private String cantidad;
+    private String fecha;
     public Organismo() {
     }
 
@@ -49,6 +51,22 @@ public class Organismo {
 
     public void setLugar(String lugar) {
         this.lugar = lugar;
+    }
+
+    public String getCantidad() {
+        return cantidad;
+    }
+
+    public void setCantidad(String cantidad) {
+        this.cantidad = cantidad;
+    }
+
+    public String getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
     }
 
     @Override

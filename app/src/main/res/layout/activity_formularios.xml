@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/background2"
+    tools:context=".formularios">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            app:titleTextColor="@color/white"
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/formulario_titulo"
+        android:textSize="30dp"
+        style="@style/TextColor"
+        android:layout_margin="10dp"
+        android:theme="@style/editTextTheme"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Nuevo Organismo" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/editTextTheme"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Nombre">
+        <EditText
+            android:id="@+id/txt_nombrePersona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextColor"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorHighlight="@color/white"
+            android:theme="@style/editTextTheme"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingTop="15dp"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/editTextTheme"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Descripcion">
+        <EditText
+            android:id="@+id/txt_appPersona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:theme="@style/editTextTheme"
+            style="@style/TextColor"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorHighlight="@color/white"
+            android:inputType="textPersonName"
+            android:paddingTop="15dp"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/editTextTheme"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Familia">
+        <EditText
+            android:id="@+id/txt_correoPersona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorHighlight="@color/white"
+            android:theme="@style/editTextTheme"
+            style="@style/TextColor"
+            android:inputType="textPersonName"
+            android:paddingTop="15dp"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/editTextTheme"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Donde se capturó">
+
+        <EditText
+            android:id="@+id/txt_passwordPersona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:theme="@style/editTextTheme"
+            style="@style/TextColor"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorHighlight="@color/white"
+            android:inputType="textPersonName"
+            android:paddingTop="15dp" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/editTextTheme"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Cantidad">
+
+        <EditText
+            android:id="@+id/txt_Cantidad"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:theme="@style/editTextTheme"
+            style="@style/TextColor"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorHighlight="@color/white"
+            android:inputType="number"
+            android:paddingTop="15dp" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/editTextTheme"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Fecha: DD/MM/AAAA">
+
+        <EditText
+            android:id="@+id/txt_Fecha"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:theme="@style/editTextTheme"
+            style="@style/TextColor"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorHighlight="@color/white"
+            android:inputType="date"
+            android:focusable="false"
+            android:paddingTop="15dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+</LinearLayout>

@@ -3,4 +3,10 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="elementosMenu">
+        <item>Editar</item>
+        <item>Eliminar</item>
+    </string-array>
+
 </resources>
