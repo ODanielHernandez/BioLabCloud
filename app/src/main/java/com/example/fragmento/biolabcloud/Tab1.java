@@ -64,7 +64,7 @@ public class Tab1 extends Fragment {
         // Inflate the layout for this fragment
         View v =  inflater.inflate(R.layout.fragment_tab1, container, false);
 
-     FirebaseUser userid = FirebaseAuth.getInstance().getCurrentUser() ;
+        FirebaseUser userid = FirebaseAuth.getInstance().getCurrentUser() ;
 
         logOut = (SubmitButton) v.findViewById(R.id.logOut);
         btnData =  (SubmitButton) v.findViewById(R.id.recibirData);

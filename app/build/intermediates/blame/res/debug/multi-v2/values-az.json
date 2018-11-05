@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Android\\BioLabCloud\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
+            "outputFile": "C:\\Users\\Hernan\\Desktop\\BioLabCloud\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hharm\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.1.0.aar\\2b4834441fd6186abaa6f08bc2a8c262\\res\\values-az\\values.xml",
+                    "source": "C:\\Users\\Hernan\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.1.0.aar\\60913cfeec7e2bdc4680b1ff28e93daa\\res\\values-az\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\hharm\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\5a916d926c6cf3bf049b6e512b8d053d\\res\\values-az\\values.xml",
+                    "source": "C:\\Users\\Hernan\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\5feb84aadc0834f1dfa3b096b7080244\\res\\values-az\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\hharm\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\206d61bd630a81b713b06f97d9b38245\\res\\values-az\\values-az.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "39",
-                        "startColumns": "4",
-                        "startOffsets": "4802",
-                        "endColumns": "100",
-                        "endOffsets": "4898"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\hharm\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8930f30d2e89851a1be256c5363059b8\\res\\values-az\\values-az.xml",
+                    "source": "C:\\Users\\Hernan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9b9a37f2eb707b06fb4fc293e513cb6f\\res\\values-az\\values-az.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -72,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\hharm\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\86553419852b574fb73a64cea27bbff4\\res\\values-az\\values.xml",
+                    "source": "C:\\Users\\Hernan\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\4ea8f620113e3a246a7d3fad89f665fb\\res\\values-az\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -86,6 +69,23 @@
                         "startOffsets": "1875,1986,2173,2308,2420,2625,2760,2912,3268,3493,3605,3785,3924,4127,4313,4407,4502",
                         "endColumns": "110,186,134,111,204,134,151,134,224,111,179,138,202,185,93,94,109",
                         "endOffsets": "1981,2168,2303,2415,2620,2755,2907,3042,3488,3600,3780,3919,4122,4308,4402,4497,4607"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hernan\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\7bc0f062af9bddf5399601ff63081092\\res\\values-az\\values-az.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "39",
+                        "startColumns": "4",
+                        "startOffsets": "4802",
+                        "endColumns": "100",
+                        "endOffsets": "4898"
                     }
                 }
             ]

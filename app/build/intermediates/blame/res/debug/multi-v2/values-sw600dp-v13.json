@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Android\\BioLabCloud\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "C:\\Users\\Hernan\\Desktop\\BioLabCloud\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hharm\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\2ec882a69fbf66d057e3b03c6a77df0a\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Hernan\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\ccf9d206188e78f48fdcd0daaf3eacdb\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\hharm\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8930f30d2e89851a1be256c5363059b8\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Hernan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9b9a37f2eb707b06fb4fc293e513cb6f\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

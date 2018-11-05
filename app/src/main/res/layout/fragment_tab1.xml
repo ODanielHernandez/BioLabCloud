@@ -10,14 +10,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-
         >
-
-        <ImageView
-            android:layout_width="102dp"
-            android:layout_height="93dp"
-            android:layout_marginBottom="5dp"
-            android:background="@drawable/logo" />
 
         <TextView
             android:layout_width="wrap_content"
