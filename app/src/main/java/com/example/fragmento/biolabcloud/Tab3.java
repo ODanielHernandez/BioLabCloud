@@ -23,6 +23,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.SearchView;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
@@ -43,7 +44,8 @@ public class Tab3 extends Fragment implements Serializable {
     ArrayList<Organismo> listPerson = new ArrayList<Organismo>();
     ArrayAdapter<Organismo> arrayAdapterPersona;
     ListView listV_personas;
-    EditText et_buscar;
+    SearchView sv;
+
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
 
@@ -79,40 +81,28 @@ public class Tab3 extends Fragment implements Serializable {
         ((AppCompatActivity)getActivity()).setSupportActionBar(actionToolbar);
         getActivity().setTitle("Lista de Organismos");
         actionToolbar.setTitleTextColor(Color.WHITE);
-        et_buscar = v.findViewById(R.id.et_buscar);
+        sv = v.findViewById(R.id.et_buscar);
         listV_personas = v.findViewById(R.id.lv_datosPersonas);
-        et_buscar.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
 
-            }
-
-            @Override
-            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                     arrayAdapterPersona.getFilter().filter(charSequence);
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
-
-            }
-        });
         inicializarFirebase();
         listarDatos();
 
 
         listPerson = new ArrayList<>();
 
-
         listV_personas.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
                 Intent i = new Intent(getContext(), formularios.class);
-                i.putExtra("objeto", listPerson.get(position));
+                personaSelected = (Organismo) parent.getItemAtPosition(position);
+
+                i.putExtra("objeto", (personaSelected));
                 i.putExtra("dedondevengo", 0);
                 startActivity(i);
             }
         });
+
 
         registerForContextMenu(listV_personas);
         return v;
@@ -121,7 +111,6 @@ public class Tab3 extends Fragment implements Serializable {
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         super.onCreateContextMenu(menu, v, menuInfo);
-
         if(v.getId()==R.id.lv_datosPersonas){
             AdapterView.AdapterContextMenuInfo infoOrganismo = (AdapterView.AdapterContextMenuInfo) menuInfo;
             String[] elementosMenu = getResources().getStringArray(R.array.elementosMenu);
@@ -141,6 +130,8 @@ public class Tab3 extends Fragment implements Serializable {
         switch (item.getItemId()) {
             case 0:
                 Intent i = new Intent(getContext(), formularios.class);
+
+
                 i.putExtra("objeto", listPerson.get(infoContacto.position));
                 i.putExtra("dedondevengo", 0);
                 startActivity(i);
@@ -180,6 +171,33 @@ public class Tab3 extends Fragment implements Serializable {
 
                     arrayAdapterPersona = new ArrayAdapter<Organismo>(getContext(), R.layout.mytextview, listPerson);
                     listV_personas.setAdapter(arrayAdapterPersona);
+                    sv.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+                        @Override
+                        public boolean onQueryTextSubmit(String text) {
+                            return false;
+                        }
+
+                        @Override
+                        public boolean onQueryTextChange(String text) {
+
+                            arrayAdapterPersona.getFilter().filter(text);
+                            listV_personas.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                                @Override
+                                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                                    Intent i = new Intent(getContext(), formularios.class);
+                                    personaSelected = (Organismo) parent.getItemAtPosition(position);
+                                    i.putExtra("objeto", (personaSelected));
+                                    i.putExtra("dedondevengo", 0);
+                                    startActivity(i);
+                                }
+                            });
+
+                            return false;
+                        }
+                    });
+
+
                 }
             }
 
