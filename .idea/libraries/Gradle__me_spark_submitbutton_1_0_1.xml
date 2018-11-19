@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: me.spark:submitbutton-1.0.1">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/submitbutton-1.0.1.aar/135637d4ae627f6235ca91ef744b59eb/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/submitbutton-1.0.1.aar/135637d4ae627f6235ca91ef744b59eb/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/submitbutton-1.0.1.aar/b405ae628b7ee6f8d2fa6991beb2825a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/submitbutton-1.0.1.aar/b405ae628b7ee6f8d2fa6991beb2825a/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

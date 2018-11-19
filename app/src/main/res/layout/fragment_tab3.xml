@@ -10,29 +10,33 @@
     <!-- TODO: Update blank fragment layout -->
 
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:minHeight="?attr/actionBarSize"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                app:titleTextColor="@color/white"
-                android:id="@+id/toolbar_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-        </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
 
-    <ImageView
-        android:layout_width="102dp"
-        android:layout_height="93dp"
-        android:layout_marginBottom="5dp"
-        android:background="@drawable/logo" />
+        <TextView
+            app:titleTextColor="@color/white"
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/et_buscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/SearchViewStyle"
+            android:inputType="textPersonName"
+            android:gravity="right"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -58,13 +62,13 @@
         android:shadowRadius="0"
         />
 
-        <ListView
-            android:id="@+id/lv_datosPersonas"
-            android:layout_width="match_parent"
-            style="@style/TextColor"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:textColorHighlight="@color/white"
-            android:layout_height="match_parent" />
+    <ListView
+        android:id="@+id/lv_datosPersonas"
+        android:layout_width="match_parent"
+        style="@style/TextColor"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorHighlight="@color/white"
+        android:layout_height="match_parent" />
 
 </LinearLayout>
