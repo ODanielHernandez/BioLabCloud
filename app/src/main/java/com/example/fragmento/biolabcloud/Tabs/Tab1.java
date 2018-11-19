@@ -45,6 +45,7 @@ public class Tab1 extends Fragment {
 
     int[] datosImg = {R.drawable.gauge,R.drawable.humidity,R.drawable.thermometerc,R.drawable.firealarm};
 
+    public static String humoDetectado;
 
     public Tab1() {
         // Required empty public constructor
@@ -202,26 +203,27 @@ public class Tab1 extends Fragment {
         Temp = arreglo[2];
         humo = arreglo[3];
 
+        convercion(String.valueOf(humo));
+
         String [][] datos = {
                 {"Presión Atmosferica", String.valueOf(Bmp).concat(" atm")},
                 {"Humedad Relativa", String.valueOf(Humidity).concat("%")},
                 {"Temperatura", String.valueOf(Temp).concat("°C")},
-                {"Humo", String.valueOf(humo)}
+                {"Humo", humoDetectado}
 
         };
         lista.setAdapter(new Adaptador(getActivity().getApplicationContext(),datos,datosImg));
 
     }
-    public String convercion(Integer valHum){
-        String resultado="";
 
-        if(valHum == 1){
-             resultado = "Despejado";
-        }else if (valHum == 0){
-            resultado = "ALERTA";
+
+    public void convercion(String valHum){
+        if(valHum.equals("1")){
+            humoDetectado = "Despejado";
+        }else if (valHum.equals("0")){
+            humoDetectado = "ALERTA";
         }
 
-        return resultado;
     }
 
     public void guardarDatosFirebase(){
