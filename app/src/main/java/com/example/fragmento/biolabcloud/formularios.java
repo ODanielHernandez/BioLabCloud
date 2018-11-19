@@ -64,6 +64,7 @@ public class formularios extends AppCompatActivity implements Serializable {
     public static Bitmap imagenEjemplar;
 
     public static String pointUbication;
+    static boolean imagenTomada;
 
     Organismo objeto;
     int dedondevengo;
@@ -77,6 +78,7 @@ public class formularios extends AppCompatActivity implements Serializable {
 
         objeto = (Organismo) getIntent().getExtras().getSerializable("objeto");
         dedondevengo = getIntent().getExtras().getInt("dedondevengo");
+        imagenTomada = false;
 
         nomP = findViewById(R.id.txt_nombrePersona);
         appP = findViewById(R.id.txt_appPersona);
@@ -94,6 +96,31 @@ public class formularios extends AppCompatActivity implements Serializable {
         actionToolbar.setTitleTextColor(Color.WHITE);
 
         if(dedondevengo== 1){
+
+            cameraButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Tomarfoto();
+                }
+            });
+
+        }else if(dedondevengo == 2){
+            String nombreTab = "Familia " + objeto.getFamilia();
+            setTitle(nombreTab);
+            txtUbi.setText("Modificar Ubicación");
+
+            nomP.setText(objeto.getNombre());
+            appP.setText(objeto.getDescripcion());
+            correoP.setText(objeto.getFamilia());
+            passwordP.setText(objeto.getLugar());
+            cantiO.setText(objeto.getCantidad());
+            fechaO.setText(objeto.getFecha());
+            DescargarImagen("Observacion",objeto.getUid());
+
+            TextView tlt = findViewById(R.id.formulario_titulo);
+            String cadena = "Modificar " + objeto.getNombre();
+
+            tlt.setText(cadena);
 
             cameraButton.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -145,31 +172,57 @@ public class formularios extends AppCompatActivity implements Serializable {
 
             tlt.setText(cadena);
 
-        }else if(dedondevengo == 2){
-            String nombreTab = "Familia " + objeto.getFamilia();
+        }else if(dedondevengo == 4) {
+
+            String tagNombre =  getIntent().getExtras().getString("nombre");
+            String tagFamilia =  getIntent().getExtras().getString("familia");
+            String tagDescripcion =  getIntent().getExtras().getString("descripcion");
+            String tagLugar =  getIntent().getExtras().getString("lugar");
+            String tagCantidad =  getIntent().getExtras().getString("cantidad");
+            String tagFecha =  getIntent().getExtras().getString("fecha");
+            String tagUid =  getIntent().getExtras().getString("uid");
+
+            String nombreTab = "Familia " + tagFamilia;
             setTitle(nombreTab);
-            txtUbi.setText("Modificar Ubicación");
 
-            nomP.setText(objeto.getNombre());
-            appP.setText(objeto.getDescripcion());
-            correoP.setText(objeto.getFamilia());
-            passwordP.setText(objeto.getLugar());
-            cantiO.setText(objeto.getCantidad());
-            fechaO.setText(objeto.getFecha());
-            DescargarImagen("Observacion",objeto.getUid());
+            btnUbicacion.setVisibility(View.INVISIBLE);
 
-            TextView tlt = findViewById(R.id.formulario_titulo);
-            String cadena = "Modificar " + objeto.getNombre();
+            nomP.setEnabled(false);
+            appP.setEnabled(false);
+            correoP.setEnabled(false);
+            passwordP.setEnabled(false);
+            cantiO.setEnabled(false);
+            fechaO.setEnabled(false);
 
-            tlt.setText(cadena);
+            nomP.setFocusable(false);
+            appP.setFocusable(false);
+            correoP.setFocusable(false);
+            passwordP.setFocusable(false);
+            cantiO.setFocusable(false);
+            fechaO.setFocusable(false);
+
+
+            nomP.setText(tagNombre);
+            appP.setText(tagDescripcion);
+            correoP.setText(tagFamilia);
+            passwordP.setText(tagLugar);
+            cantiO.setText(tagCantidad);
+            fechaO.setText(tagFecha);
+            DescargarImagen("Observacion", tagUid);
 
             cameraButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Tomarfoto();
+                    Intent i = new Intent(formularios.this, imagenejemplar.class);
+                    startActivity(i);
                 }
             });
 
+
+            TextView tlt = findViewById(R.id.formulario_titulo);
+            String cadena = "Ejemplar " + tagNombre;
+
+            tlt.setText(cadena);
         }
 
         fechaO.setOnClickListener(new View.OnClickListener() {
@@ -220,7 +273,7 @@ public class formularios extends AppCompatActivity implements Serializable {
         getMenuInflater().inflate(R.menu.menu_nuevo,menu);
         dedondevengo = getIntent().getExtras().getInt("dedondevengo");
 
-        if(dedondevengo == 3){
+        if(dedondevengo == 3 || dedondevengo == 4){
             MenuItem item = menu.findItem(R.id.icon_nuevo);
             item.setVisible(false);
         }
@@ -246,7 +299,7 @@ public class formularios extends AppCompatActivity implements Serializable {
         switch (item.getItemId()) {
 
             case R.id.icon_nuevo: {
-                if (nombre.equals("") || correo.equals("") || password.equals("") || app.equals("") || canti.equals("") || fecha.equals("")){
+                if (nombre.equals("") || correo.equals("") || password.equals("") || app.equals("") || canti.equals("") || fecha.equals("") || !imagenTomada || pointUbication == null){
                     validacion();
 
                 } else {
@@ -285,40 +338,40 @@ public class formularios extends AppCompatActivity implements Serializable {
                         });
                         dialogo1.show();
                     }else{
-                        AlertDialog.Builder dialogo1 = new AlertDialog.Builder(this);
-                        dialogo1.setTitle("Alerta");
-                        dialogo1.setMessage("¿Es " + pointUbication + " la ubicación correcta?");
-                        dialogo1.setCancelable(false);
-                        dialogo1.setPositiveButton("Confirmar", new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialogo1, int id) {
-                                Organismo p = new Organismo();
-                                p.setUid(UUID.randomUUID().toString());
-                                p.setNombre(nombre);
-                                p.setDescripcion(app);
-                                p.setFamilia(correo);
-                                p.setLugar(password);
-                                p.setCantidad(canti);
-                                p.setFecha(fecha);
-                                p.setUbicacion(pointUbication);
-                                SubirFoto(p.getUid(), "Observacion", uriFoto);
-                                databaseReference.child("Organismo").child(p.getUid()).setValue(p);
-                                Tab2.Lat=0;
-                                Tab2.Long=0;
+                            AlertDialog.Builder dialogo1 = new AlertDialog.Builder(this);
+                            dialogo1.setTitle("Alerta");
+                            dialogo1.setMessage("¿Es " + pointUbication + " la ubicación correcta?");
+                            dialogo1.setCancelable(false);
+                            dialogo1.setPositiveButton("Confirmar", new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialogo1, int id) {
+                                    Organismo p = new Organismo();
+                                    p.setUid(UUID.randomUUID().toString());
+                                    p.setNombre(nombre);
+                                    p.setDescripcion(app);
+                                    p.setFamilia(correo);
+                                    p.setLugar(password);
+                                    p.setCantidad(canti);
+                                    p.setFecha(fecha);
+                                    p.setUbicacion(pointUbication);
+                                    SubirFoto(p.getUid(), "Observacion", uriFoto);
+                                    databaseReference.child("Organismo").child(p.getUid()).setValue(p);
+                                    Tab2.Lat=0;
+                                    Tab2.Long=0;
 
-                                Toast.makeText(formularios.this, "Agregado", Toast.LENGTH_LONG).show();
-                            }
-                        });
+                                    Toast.makeText(formularios.this, "Agregado", Toast.LENGTH_LONG).show();
 
-                        dialogo1.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialogo1, int id) {
-                                Toast.makeText(formularios.this, "Cancelado", Toast.LENGTH_SHORT).show();
-                            }
-                        });
-                        dialogo1.show();
+                                    Intent i = new Intent(formularios.this, MainActivity.class);
+                                    startActivity(i);
+                                }
+                            });
 
+                            dialogo1.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialogo1, int id) {
+                                    Toast.makeText(formularios.this, "Cancelado", Toast.LENGTH_SHORT).show();
+                                }
+                            });
+                            dialogo1.show();
                     }
-                    limpiarCajas();
-
                 }
                 break;
             }
@@ -331,17 +384,6 @@ public class formularios extends AppCompatActivity implements Serializable {
 
         }
         return true;
-    }
-
-
-
-    private void limpiarCajas() {
-        nomP.setText("");
-        correoP.setText("");
-        passwordP.setText("");
-        appP.setText("");
-        cantiO.setText("");
-        fechaO.setText("");
     }
 
 
@@ -370,10 +412,10 @@ public class formularios extends AppCompatActivity implements Serializable {
         else if (fecha.equals("")){
             fechaO.setError("Required");
         }
-        else if (pointUbication.equals("")){
+        else if(!imagenTomada){
             AlertDialog.Builder dialogo1 = new AlertDialog.Builder(this);
             dialogo1.setTitle("Alerta");
-            dialogo1.setMessage("Asegurese de colocar la posición en el mapa");
+            dialogo1.setMessage("Asegurese de capturar una imagen del organismo");
             dialogo1.setCancelable(false);
             dialogo1.setPositiveButton("Confirmar", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialogo1, int id) {
@@ -381,6 +423,18 @@ public class formularios extends AppCompatActivity implements Serializable {
                 }
             });
             dialogo1.show();
+        }
+        else if (pointUbication == null){
+            AlertDialog.Builder dialogo2 = new AlertDialog.Builder(this);
+            dialogo2.setTitle("Alerta");
+            dialogo2.setMessage("Asegurese de colocar la posición en el mapa");
+            dialogo2.setCancelable(false);
+            dialogo2.setPositiveButton("Confirmar", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialogo1, int id) {
+
+                }
+            });
+            dialogo2.show();
         }
     }
 
@@ -421,6 +475,7 @@ public class formularios extends AppCompatActivity implements Serializable {
 
     public void Tomarfoto(){
         Intent i = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        imagenTomada = true;
         startActivityForResult(i,0);
     }
 

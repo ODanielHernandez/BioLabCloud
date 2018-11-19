@@ -146,6 +146,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
                         // Placing a marker on the touched position
                         map.addMarker(markerOptions);
+
+                        Tab2.Lat=latLng.latitude;
+                        Tab2.Long=latLng.longitude;
                     }
                 });
                 dialogo1.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {

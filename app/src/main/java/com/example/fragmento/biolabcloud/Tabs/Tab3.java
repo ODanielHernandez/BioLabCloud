@@ -89,7 +89,6 @@ public class Tab3 extends Fragment implements Serializable {
         listV_personas = v.findViewById(R.id.lv_datosPersonas);
 
         inicializarFirebase();
-        listarDatos();
 
 
         listPerson = new ArrayList<>();
@@ -109,6 +108,7 @@ public class Tab3 extends Fragment implements Serializable {
 
 
         registerForContextMenu(listV_personas);
+        listarDatos();
         return v;
     }
 

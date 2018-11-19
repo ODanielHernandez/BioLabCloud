@@ -8,12 +8,12 @@
         "source": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\src\\main\\res\\font\\montserrat.xml"
     },
     {
-        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background2.xml.flat",
         "source": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\src\\main\\res\\drawable\\background2.xml"
+    },
+    {
+        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_nuevo.png.flat",
@@ -244,6 +244,10 @@
         "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
+        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable_event.png.flat",
+        "source": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\src\\main\\res\\drawable\\event.png"
+    },
+    {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
@@ -316,10 +320,6 @@
         "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background.jpg.flat",
-        "source": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\src\\main\\res\\drawable\\background.jpg"
-    },
-    {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_dicigar.xml.flat",
         "source": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\src\\main\\res\\mipmap-anydpi-v26\\dicigar.xml"
     },
@@ -390,6 +390,10 @@
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_infowindow.xml.flat",
+        "source": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\src\\main\\res\\layout\\custom_infowindow.xml"
     },
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -588,8 +592,16 @@
         "source": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\src\\main\\res\\drawable\\buttonshape.xml"
     },
     {
+        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book.png.flat",
+        "source": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\src\\main\\res\\drawable\\book.png"
+    },
+    {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_dicigar.png.flat",
         "source": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\src\\main\\res\\mipmap-hdpi\\dicigar.png"
+    },
+    {
+        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dnastructure.png.flat",
+        "source": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\src\\main\\res\\drawable\\dnastructure.png"
     },
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_tab3.xml.flat",
@@ -798,6 +810,10 @@
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_sheet_dialog.xml.flat",
         "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\5509a36fc17dd61d61937ee357a50eb8\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable_earthglobe.png.flat",
+        "source": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\src\\main\\res\\drawable\\earthglobe.png"
     },
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
@@ -1204,16 +1220,16 @@
         "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable_router.png.flat",
-        "source": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\src\\main\\res\\drawable\\router.png"
-    },
-    {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hashtag.png.flat",
+        "source": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\src\\main\\res\\drawable\\hashtag.png"
     },
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -2218,6 +2234,10 @@
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bacteria.png.flat",
+        "source": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\src\\main\\res\\drawable\\bacteria.png"
     },
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_dicigar_round.png.flat",
