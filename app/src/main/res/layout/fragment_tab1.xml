@@ -115,7 +115,7 @@
                 android:textSize="10dp"
                 app:sub_btn_background="#00FFFFFF"
                 app:sub_btn_duration="3000"
-                app:sub_btn_line_color="#75e09c"
+                app:sub_btn_line_color="#009f3b"
                 app:sub_btn_ripple_color="#FFF"
                 app:sub_btn_tick_color="#FFF" />
 
