@@ -96,10 +96,6 @@
         "source": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\src\\main\\res\\drawable\\backgroundbtn.xml"
     },
     {
-        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\color-v21_abc_btn_colored_borderless_text_material.xml.flat",
-        "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\color-v21\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_design_ic_visibility_off.png.flat",
         "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\5509a36fc17dd61d61937ee357a50eb8\\res\\drawable-hdpi-v4\\design_ic_visibility_off.png"
     },
@@ -338,10 +334,6 @@
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
         "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a32a1c903a85657ca65005a67bcde1bf\\res\\layout-v21\\notification_template_custom_big.xml"
-    },
-    {
-        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_text_material.xml.flat",
-        "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -788,10 +780,6 @@
         "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_seek_thumb.xml.flat",
-        "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\color\\abc_tint_seek_thumb.xml"
-    },
-    {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a32a1c903a85657ca65005a67bcde1bf\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
     },
@@ -898,10 +886,6 @@
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\layout_bot_bubble.xml.flat",
         "source": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\src\\main\\res\\layout\\bot_bubble.xml"
-    },
-    {
-        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_spinner.xml.flat",
-        "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\color\\abc_tint_spinner.xml"
     },
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
@@ -1246,10 +1230,6 @@
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
         "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\82c686bb9566ca3dfce838f017d33a00\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
-    },
-    {
-        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_switch_track.xml.flat",
-        "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\color\\abc_tint_switch_track.xml"
     },
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -1772,10 +1752,6 @@
         "source": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\src\\main\\res\\drawable-mdpi\\ic_cancelar.png"
     },
     {
-        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_edittext.xml.flat",
-        "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\color\\abc_tint_edittext.xml"
-    },
-    {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
         "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
@@ -1834,10 +1810,6 @@
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add_map.png.flat",
         "source": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add_map.png"
-    },
-    {
-        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_default.xml.flat",
-        "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\color\\abc_tint_default.xml"
     },
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_tab_icon.xml.flat",
@@ -1930,10 +1902,6 @@
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_bottom.xml.flat",
         "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\color_design_tint_password_toggle.xml.flat",
-        "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\5509a36fc17dd61d61937ee357a50eb8\\res\\color\\design_tint_password_toggle.xml"
     },
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_background_cache_hint_selector_material_dark.xml.flat",
@@ -2118,10 +2086,6 @@
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_btn_checkable.xml.flat",
-        "source": "C:\\Users\\1A8\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6e23f58c7c19c567612b8ac243bcd7e3\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
         "merged": "C:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",

@@ -1,7 +1,12 @@
 package com.example.fragmento.biolabcloud;
 
+import android.Manifest;
+import android.annotation.TargetApi;
+import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.os.Build;
 import android.support.design.widget.TabLayout;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -17,10 +22,13 @@ import com.example.fragmento.biolabcloud.Tabs.Tab4;
 
 public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentInteractionListener,Tab2.OnFragmentInteractionListener,Tab3.OnFragmentInteractionListener,Tab4.OnFragmentInteractionListener{
 
+    private String[] permissions = new String[]{Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.INTERNET, Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.ACCESS_NOTIFICATION_POLICY, Manifest.permission.BIND_NOTIFICATION_LISTENER_SERVICE};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        PedirPermisos();
 
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabLayout);
@@ -64,6 +72,21 @@ public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentIn
             }
         });
 
+    }
+
+    @TargetApi(Build.VERSION_CODES.M)
+    public void PedirPermisos(){
+        if (ActivityCompat.checkSelfPermission(MainActivity.this, permissions[0]) != PackageManager.PERMISSION_GRANTED ||
+                ActivityCompat.checkSelfPermission(MainActivity.this, permissions[1]) != PackageManager.PERMISSION_GRANTED ||
+                ActivityCompat.checkSelfPermission(MainActivity.this, permissions[2]) != PackageManager.PERMISSION_GRANTED ||
+                ActivityCompat.checkSelfPermission(MainActivity.this, permissions[3]) != PackageManager.PERMISSION_GRANTED ||
+                ActivityCompat.checkSelfPermission(MainActivity.this, permissions[4]) != PackageManager.PERMISSION_GRANTED ||
+                ActivityCompat.checkSelfPermission(MainActivity.this, permissions[5]) != PackageManager.PERMISSION_GRANTED ||
+                ActivityCompat.checkSelfPermission(MainActivity.this, permissions[6]) != PackageManager.PERMISSION_GRANTED ||
+                ActivityCompat.checkSelfPermission(MainActivity.this, permissions[7]) != PackageManager.PERMISSION_GRANTED) {
+            //Si alguno de los permisos no esta concedido lo solicita
+            ActivityCompat.requestPermissions(MainActivity.this, permissions, 1);
+        }
     }
 
     @Override
