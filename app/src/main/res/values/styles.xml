@@ -35,6 +35,7 @@
         <item name="android:textColor">@color/white</item>
         <item name="colorControlActivated">@color/white</item>
         <item name="colorControlNormal">@color/white</item>
+        <item name="android:editTextColor">@android:color/white</item>
         <item name="android:textColorHint">@color/white</item>
 
         <!-- Gets rid of the search icon when the SearchView is expanded -->

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Nov 27 22:42:46 MST 2018
+#Sun Dec 02 14:36:44 MST 2018
 0.baseType=DIRECTORY
 0.base=C\:\\Users\\1A8\\Documents\\Android\\BioLabCloud\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.path=classes.dex

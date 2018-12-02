@@ -270,12 +270,13 @@ public class Tab1 extends Fragment {
                 String Temperatura = tokens.nextToken();
                 String humo = tokens.nextToken();
 
+                convercion(String.valueOf(humo));
 
                 String [][] datos = {
                         {"Presión Atmosferica", String.valueOf(Bmp).concat(" atm")},
                         {"Humedad Relativa", String.valueOf(Humedad).concat("%")},
                         {"Temperatura", String.valueOf(Temperatura).concat("°C")},
-                        {"Humo", humo}
+                        {"Humo", humoDetectado}
 
                 };
                 lista.setAdapter(new Adaptador(getActivity().getApplicationContext(),datos,datosImg));

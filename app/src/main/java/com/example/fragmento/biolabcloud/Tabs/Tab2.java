@@ -359,12 +359,12 @@ public class Tab2 extends Fragment implements OnMapReadyCallback,GoogleMap.OnInf
 
                 Lat= lat[0];
                 Long= lang[0];
-                Intent i = new Intent(getContext(), formularios.class);
-                i.putExtra("location", pos[0]);
-                i.putExtra("dedondevengo", 1);
-                startActivity(i);
             }
         });
+        Intent i = new Intent(getContext(), formularios.class);
+        i.putExtra("location", pos[0]);
+        i.putExtra("dedondevengo", 1);
+        startActivity(i);
         return null;
     }
 

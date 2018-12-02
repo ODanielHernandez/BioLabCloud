@@ -220,7 +220,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
-                    android:text="contacto@diCigar.com"
+                    android:text="contacto@fragmentoestudio.com"
                     />
             </LinearLayout>
             <ImageButton
