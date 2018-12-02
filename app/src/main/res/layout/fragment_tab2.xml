@@ -24,7 +24,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_gravity="right|top"
-            android:background="@drawable/ic_add_map"
+            android:background="@drawable/btn_draw_state"
             android:layout_marginTop="55dp"
             android:layout_marginRight="6dp" />
 

@@ -1,0 +1,151 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background2"
+    tools:context=".Ayudas.ayudaCHAT">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Ayuda en CHAT"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            />
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="0sp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="4dp"
+
+            android:layout_width="200dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Para solicitar ayuda con el asistente"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="0sp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="4dp"
+
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            />
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/handchart"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="1.- Escribir “Hola” o mandarle un mensaje sin nada, y posteriormente responder a lo que te pregunte."
+                    android:textSize="15dp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="0sp"
+            android:layout_marginTop="6dp"
+
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/touch"
+                android:layout_gravity="center"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Para ver las preguntas frecuentes"
+                    android:textSize="22dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="1.- Escribir la palabra “Preguntas frecuentes”."
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

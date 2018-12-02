@@ -84,7 +84,6 @@ public class Tab2 extends Fragment implements OnMapReadyCallback,GoogleMap.OnInf
     DatabaseReference databaseReference,primary;
 
     ImageButton newMarker;
-    int z=0;
     public static double Lat= 0;
     public static double Long= 0;
     final String[] pos = new String[1];

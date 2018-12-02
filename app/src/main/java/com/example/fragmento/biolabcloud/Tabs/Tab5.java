@@ -1,6 +1,5 @@
 package com.example.fragmento.biolabcloud.Tabs;
 
-import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -11,9 +10,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.example.fragmento.biolabcloud.Ayudas.ayudaOPCIONES;
 import com.example.fragmento.biolabcloud.InicioSesion;
 import com.example.fragmento.biolabcloud.R;
-import com.example.fragmento.biolabcloud.help;
+import com.example.fragmento.biolabcloud.contacto;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.spark.submitbutton.SubmitButton;
@@ -50,7 +50,7 @@ public class Tab5 extends Fragment {
         Ayuda.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getContext(), help.class);
+                Intent i = new Intent(getContext(), ayudaOPCIONES.class);
                 startActivity(i);
             }
         });
@@ -58,6 +58,8 @@ public class Tab5 extends Fragment {
         Contacto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent i = new Intent(getContext(), contacto.class);
+                startActivity(i);
             }
         });
 

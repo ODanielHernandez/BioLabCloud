@@ -52,8 +52,13 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".help" />
-        <activity android:name=".imagenejemplar"></activity>
+        <activity android:name=".imagenejemplar" />
+        <activity android:name=".Ayudas.ayudaOPCIONES"/>
+        <activity android:name=".Ayudas.ayudaBIOLAB"/>
+        <activity android:name=".Ayudas.ayudaCHAT"/>
+        <activity android:name=".Ayudas.ayudaESTADO"/>
+        <activity android:name=".Ayudas.ayudaMAPA"/>
+        <activity android:name=".contacto"></activity>
     </application>
 
 </manifest>

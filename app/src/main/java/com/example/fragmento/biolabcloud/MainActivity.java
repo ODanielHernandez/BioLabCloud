@@ -3,6 +3,8 @@ package com.example.fragmento.biolabcloud;
 import android.Manifest;
 import android.annotation.TargetApi;
 import android.content.pm.PackageManager;
+import android.graphics.drawable.Icon;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Build;
 import android.support.design.widget.TabLayout;
@@ -11,6 +13,8 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -32,11 +36,11 @@ public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentIn
 
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabLayout);
-        tabLayout.addTab(tabLayout.newTab().setText("BioLab"));
-        tabLayout.addTab(tabLayout.newTab().setText("Mapa"));
-        tabLayout.addTab(tabLayout.newTab().setText("Estado"));
-        tabLayout.addTab(tabLayout.newTab().setText("Chat"));
-        tabLayout.addTab(tabLayout.newTab().setText("Menu"));
+        tabLayout.addTab(tabLayout.newTab().setText("BioLab").setIcon(R.drawable.molecule90));
+        tabLayout.addTab(tabLayout.newTab().setText("Mapa").setIcon(R.drawable.placeholder90));
+        tabLayout.addTab(tabLayout.newTab().setText("Estado").setIcon(R.drawable.biolab90));
+        tabLayout.addTab(tabLayout.newTab().setText("Chat").setIcon(R.drawable.chat90));
+        tabLayout.addTab(tabLayout.newTab().setText("Menu").setIcon(R.drawable.house90));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         TextView tv1 = (TextView)(((LinearLayout)((LinearLayout)tabLayout.getChildAt(0)).getChildAt(0)).getChildAt(1));
@@ -49,6 +53,7 @@ public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentIn
         tv4.setScaleY(-1);
         TextView tv5 = (TextView)(((LinearLayout)((LinearLayout)tabLayout.getChildAt(0)).getChildAt(4)).getChildAt(1));
         tv5.setScaleY(-1);
+
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
         final PagerAdapter adapter = new PageAdapter(getSupportFragmentManager(),tabLayout.getTabCount());
