@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center">
 
     <!-- TODO: Update blank fragment layout -->
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical"
-        android:gravity="center"
-        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Instrucciones de uso"
+            android:text="Menú"
             android:textStyle="bold"
             android:textColor="@color/white"
-            android:textSize="25dp"
+            android:textSize="30dp"
             />
         <Button
             android:textColor="#FFFFFF"
@@ -35,276 +36,43 @@
             android:shadowDy="0"
             android:shadowRadius="0"
             />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="App Móvil"
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/Ayuda"
+        android:layout_width="148dp"
+        android:layout_height="57dp"
+        android:text="Manual de usuario"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:sub_btn_background="#00FFFFFF"
+        app:sub_btn_duration="3000"
+        app:sub_btn_line_color="#009f3b"
+        app:sub_btn_ripple_color="#FFF"
+        app:sub_btn_tick_color="#FFF" />
+
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/Contacto"
+        android:layout_width="148dp"
+        android:layout_height="57dp"
+        android:text="Contacto"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:sub_btn_background="#00FFFFFF"
+        app:sub_btn_duration="3000"
+        app:sub_btn_line_color="#009f3b"
+        app:sub_btn_ripple_color="#FFF"
+        app:sub_btn_tick_color="#FFF" />
+
+        <com.spark.submitbutton.SubmitButton
+            android:layout_marginTop="35dp"
+            android:id="@+id/logOut"
+            android:layout_width="148dp"
+            android:layout_height="57dp"
+            android:text="Cerrar sesión"
             android:textColor="@color/white"
-            android:textSize="22dp"
-            />
-
-        <Button
-            android:textColor="#FFFFFF"
-            android:textSize="0sp"
-            android:layout_marginTop="1dp"
-            android:layout_marginBottom="4dp"
-
-            android:layout_width="100dp"
-            android:layout_height="2dp"
-            android:background="@drawable/line"
-            android:shadowColor="#A8A8A8"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="0"
-            />
-        <LinearLayout
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="10dp"
-            >
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:background="@drawable/handchart"
-                />
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                >
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/white"
-                    android:gravity="center"
-                    android:text="Para el uso de la gráfica"
-                    android:textStyle="bold"
-                    android:textSize="15dp"
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textAlignment="center"
-                    android:text="Las gráficas se actualizan cada hora, para evitar el sobreposicionamiento de información y solo mostrar la información necesaria.
-Para utilizar las gráficas, coloque su dedo izquierdo en la gráfica a mover, y con su dedo derecho desplaze."
-                    android:textColor="@color/white"
-                    />
-            </LinearLayout>
-        </LinearLayout>
-        <Button
-            android:textColor="#FFFFFF"
-            android:textSize="0sp"
-            android:layout_marginTop="6dp"
-
-            android:layout_width="100dp"
-            android:layout_height="2dp"
-            android:background="@drawable/line"
-            android:shadowColor="#A8A8A8"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="0"
-            />
-
-        <LinearLayout
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="15dp"
-            >
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="@drawable/touch"
-                android:layout_gravity="center"
-                />
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                >
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/white"
-                    android:gravity="center"
-                    android:textStyle="bold"
-                    android:text="Para ver los datos del Laboratorio en tiempo real"
-                    android:textSize="15dp"
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textAlignment="center"
-                    android:text="Para ver los datos del Laboratorio desde la primera pesteña. hay dos formas:"
-                    android:textColor="@color/white"
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textAlignment="center"
-                    android:text="1.-Con el dedo desliza hacia abajo en la zona donde están los valores."
-                    android:textColor="@color/white"
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textAlignment="center"
-                    android:text="2.-Presiona el botón de actualizar."
-                    android:textColor="@color/white"
-                    />
-            </LinearLayout>
-        </LinearLayout>
-
-
-        <Button
-            android:textColor="#FFFFFF"
-            android:textSize="0sp"
-            android:layout_marginTop="15dp"
-
-            android:layout_width="200dp"
-            android:layout_height="2dp"
-            android:background="@drawable/line"
-            android:shadowColor="#A8A8A8"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="0"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="RoSystem"
-            android:textColor="@color/white"
-            android:textSize="22dp"
-            />
-
-        <Button
-            android:textColor="#FFFFFF"
-            android:textSize="0sp"
-            android:layout_marginTop="1dp"
-            android:layout_marginBottom="4dp"
-
-            android:layout_width="100dp"
-            android:layout_height="2dp"
-            android:background="@drawable/line"
-            android:shadowColor="#A8A8A8"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="0"
-            />
-        <LinearLayout
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="15dp"
-            >
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="@drawable/humidor"
-                />
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center"
-                >
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/white"
-                    android:gravity="center"
-                    android:text="Para el cuidado del RoSystem"
-                    android:textStyle="bold"
-                    android:textSize="15dp"
-                    />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAlignment="center"
-                    android:text="El RoSystem requiere que se de mantemiento cada año, para prevenir mal funcionamiento del sistema."
-                    android:textColor="@color/white"
-                    />
-            </LinearLayout>
-        </LinearLayout>
-
-
-        <Button
-            android:textColor="#FFFFFF"
-            android:textSize="0sp"
-            android:layout_marginTop="6dp"
-
-            android:layout_width="100dp"
-            android:layout_height="2dp"
-            android:background="@drawable/line"
-            android:shadowColor="#A8A8A8"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="0"
-            />
-
-        <LinearLayout
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="15dp"
-            >
-            <ImageView
-                android:layout_gravity="center"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="@drawable/maintenance"
-                />
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center"
-                >
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/white"
-                    android:gravity="center"
-                    android:textStyle="bold"
-                    android:text="En caso de requerir asistencia"
-                    android:textSize="15dp"
-                    />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
-                    android:textAlignment="center"
-                    android:text="Puedes contactar a servicio al cliente con los siguientes datos."
-                    android:textColor="@color/white"
-                    />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
-                    android:textAlignment="center"
-                    android:text="+52(668)-8201605"
-                    android:textColor="@color/white"
-                    />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
-                    android:textAlignment="center"
-                    android:text="servicios@fragmentoestudio.com"
-                    android:textColor="@color/white"
-                    />
-            </LinearLayout>
-        </LinearLayout>
-
-    </LinearLayout>
-</ScrollView>
+            android:textSize="10dp"
+            app:sub_btn_background="#00FFFFFF"
+            app:sub_btn_duration="3000"
+            app:sub_btn_line_color="#009f3b"
+            app:sub_btn_ripple_color="#FFF"
+            app:sub_btn_tick_color="#FFF" />
+</LinearLayout>

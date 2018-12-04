@@ -1,8 +1,11 @@
 package com.example.fragmento.biolabcloud;
+import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -102,6 +105,7 @@ public class InicioSesion extends AppCompatActivity {
         });
 
     }
+
 
     @Override
     protected void onStart() {

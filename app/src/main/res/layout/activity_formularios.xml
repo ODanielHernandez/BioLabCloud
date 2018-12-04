@@ -11,21 +11,20 @@
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
-        android:minHeight="?attr/actionBarSize"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize">
 
         <TextView
-            app:titleTextColor="@color/white"
             android:id="@+id/toolbar_title"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:textColor="@color/white"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:titleTextColor="@color/white" />
 
     </android.support.v7.widget.Toolbar>
-
 
     <TextView
         android:layout_width="wrap_content"
@@ -39,6 +38,23 @@
         android:text="Nuevo Organismo" />
 
 
+    <!--<fragment
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+        -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -65,7 +81,7 @@
         android:theme="@style/editTextTheme"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        android:hint="Descripcion">
+        android:hint="Descripción">
         <EditText
             android:id="@+id/txt_appPersona"
             android:layout_width="match_parent"
@@ -120,51 +136,123 @@
             android:inputType="textPersonName"
             android:paddingTop="15dp" />
     </android.support.design.widget.TextInputLayout>
-    <android.support.design.widget.TextInputLayout
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/editTextTheme"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        android:hint="Cantidad">
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
 
-        <EditText
-            android:id="@+id/txt_Cantidad"
-            android:layout_width="96dp"
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
             android:layout_height="wrap_content"
-            android:ems="10"
             android:theme="@style/editTextTheme"
-            style="@style/TextColor"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
-            android:textColorHighlight="@color/white"
-            android:inputType="number"
-            android:paddingTop="15dp" />
-    </android.support.design.widget.TextInputLayout>
-    <android.support.design.widget.TextInputLayout
+            android:hint="Fecha: DD/MM/AAAA">
+
+            <EditText
+                android:id="@+id/txt_Fecha"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:theme="@style/editTextTheme"
+                style="@style/TextColor"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textColorHighlight="@color/white"
+                android:inputType="date"
+                android:focusable="false"
+                android:paddingTop="15dp"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="160dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:theme="@style/editTextTheme"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:hint="Cantidad">
+
+            <EditText
+                android:id="@+id/txt_Cantidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:theme="@style/editTextTheme"
+                style="@style/TextColor"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textColorHighlight="@color/white"
+                android:inputType="number"
+                android:paddingTop="15dp" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/editTextTheme"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        android:hint="Fecha: DD/MM/AAAA">
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
 
-        <EditText
-            android:id="@+id/txt_Fecha"
-            android:layout_width="180dp"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:theme="@style/editTextTheme"
-            style="@style/TextColor"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:textColorHighlight="@color/white"
-            android:inputType="date"
-            android:focusable="false"
-            android:paddingTop="15dp"
-            />
-    </android.support.design.widget.TextInputLayout>
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
 
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_camera"
+                android:id="@+id/cameraButton"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:text="Fotografía"
+                android:textSize="15sp"
+                />
 
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/btnUbicacion"
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/maps"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:id="@+id/textviewUbicacion"
+                android:text="Seleccionar ubicación"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

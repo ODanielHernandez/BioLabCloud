@@ -10,6 +10,9 @@ public class Organismo implements Serializable{
     private String lugar;
     private String cantidad;
     private String fecha;
+    private String Ubicacion;
+
+
     public Organismo() {
     }
 
@@ -69,8 +72,13 @@ public class Organismo implements Serializable{
         this.fecha = fecha;
     }
 
+    public String getUbicacion() { return Ubicacion; }
+
+    public void setUbicacion(String ubicacion) { Ubicacion = ubicacion; }
+
     @Override
     public String toString() {
         return nombre;
     }
+
 }

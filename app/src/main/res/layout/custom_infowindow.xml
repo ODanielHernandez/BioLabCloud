@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#fff"
+
+    android:paddingTop="5dip"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip"
+    android:paddingBottom="5dip"
+    >
+
+    <ImageView
+        android:id="@+id/imagenOrganismo"
+        android:layout_width="100dip"
+        android:layout_height="120dip"
+        android:src="@drawable/logo"
+        android:layout_marginLeft="8dip"
+        android:layout_gravity="center_vertical"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="2dip"
+        android:layout_gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:src="@drawable/bacteria"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="5dip"/>
+            <TextView
+                android:id="@+id/organismo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Organismo"
+                android:textSize="10dip"
+                android:gravity="center_vertical"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:src="@drawable/dnastructure"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="5dip"/>
+            <TextView
+                android:id="@+id/familia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Familia"
+                android:textSize="10dip"
+                android:gravity="center_vertical"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:src="@drawable/book"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="5dip"/>
+            <TextView
+                android:id="@+id/descipcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descrpción"
+                android:textSize="10dip"
+                android:gravity="center_vertical"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:src="@drawable/earthglobe"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="5dip"/>
+            <TextView
+                android:id="@+id/lugar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lugar"
+                android:textSize="10dip"
+                android:gravity="center_vertical"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:src="@drawable/hashtag"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="5dip"/>
+            <TextView
+                android:id="@+id/cantidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cantidad"
+                android:textSize="10dip"
+                android:gravity="center_vertical"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:src="@drawable/event"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="5dip"/>
+            <TextView
+                android:id="@+id/fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha"
+                android:textSize="10dip"
+                android:gravity="center_vertical"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
