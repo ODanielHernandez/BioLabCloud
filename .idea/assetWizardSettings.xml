@@ -23,7 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/maps/ic_add_location_black_24dp.xml" />
+                                                <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/navigation/ic_refresh_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -33,9 +33,9 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="btn_draw_State" />
+                                      <entry key="outputName" value="btn_refresh" />
                                       <entry key="theme" value="CUSTOM" />
-                                      <entry key="themeColor" value="0ca13b" />
+                                      <entry key="themeColor" value="0c3000" />
                                     </map>
                                   </option>
                                 </PersistentState>

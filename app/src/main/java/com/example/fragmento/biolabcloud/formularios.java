@@ -115,6 +115,10 @@ public class formularios extends AppCompatActivity implements Serializable {
             passwordP.setText(objeto.getLugar());
             cantiO.setText(objeto.getCantidad());
             fechaO.setText(objeto.getFecha());
+            pointUbication = objeto.getUbicacion();
+
+            imagenTomada = true;
+
             DescargarImagen("Observacion",objeto.getUid());
 
             TextView tlt = findViewById(R.id.formulario_titulo);
@@ -157,6 +161,9 @@ public class formularios extends AppCompatActivity implements Serializable {
             cantiO.setText(objeto.getCantidad());
             fechaO.setText(objeto.getFecha());
             DescargarImagen("Observacion",objeto.getUid());
+
+            imagenTomada = true;
+            pointUbication = objeto.getUbicacion();
 
             cameraButton.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -210,6 +217,8 @@ public class formularios extends AppCompatActivity implements Serializable {
             fechaO.setText(tagFecha);
             DescargarImagen("Observacion", tagUid);
 
+            imagenTomada = true;
+
             cameraButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -245,27 +254,6 @@ public class formularios extends AppCompatActivity implements Serializable {
         });
 
 
-    }
-
-    public void DescargarImagen(String Referencia, String Nombre){
-        FirebaseStorage storage = FirebaseStorage.getInstance();
-        StorageReference storageRef = storage.getReferenceFromUrl("gs://biolabcloud.appspot.com/" + Referencia).child(Nombre + ".jpg");
-        try {
-            final File localFile = File.createTempFile("images", "jpg");
-            storageRef.getFile(localFile).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
-                @Override
-                public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
-                    Bitmap bitmap = BitmapFactory.decodeFile(localFile.getAbsolutePath());
-                    cameraButton.setImageBitmap(bitmap);
-                    imagenEjemplar = bitmap;
-                }
-            }).addOnFailureListener(new OnFailureListener() {
-                @Override
-                public void onFailure(@NonNull Exception exception) {
-                    Toast.makeText(getApplicationContext(),"Error al obtener la imagen",Toast.LENGTH_SHORT).show();
-                }
-            });
-        } catch (IOException e ) {}
     }
 
     @Override
@@ -318,7 +306,10 @@ public class formularios extends AppCompatActivity implements Serializable {
                                 objeto.setCantidad(canti);
                                 objeto.setFecha(fecha);
                                 objeto.setUbicacion(pointUbication);
-                                SubirFoto(objeto.getUid(), "Observacion", uriFoto);
+                                if (uriFoto==null){
+                                }else{
+                                    SubirFoto(objeto.getUid(), "Observacion", uriFoto);
+                                }
                                 databaseReference.child("Organismo").child(objeto.getUid()).setValue(objeto);
 
                                 Toast.makeText(formularios.this, "Modificado", Toast.LENGTH_LONG).show();
@@ -473,6 +464,26 @@ public class formularios extends AppCompatActivity implements Serializable {
         return Uri.parse(path);
     }
 
+    public void DescargarImagen(String Referencia, String Nombre){
+        FirebaseStorage storage = FirebaseStorage.getInstance();
+        StorageReference storageRef = storage.getReferenceFromUrl("gs://biolabcloud.appspot.com/" + Referencia).child(Nombre + ".jpg");
+        try {
+            final File localFile = File.createTempFile("images", "jpg");
+            storageRef.getFile(localFile).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                @Override
+                public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                    Bitmap bitmap = BitmapFactory.decodeFile(localFile.getAbsolutePath());
+                    cameraButton.setImageBitmap(bitmap);
+                    imagenEjemplar = bitmap;
+                }
+            }).addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception exception) {
+                    Toast.makeText(getApplicationContext(),"Error al obtener la imagen",Toast.LENGTH_SHORT).show();
+                }
+            });
+        } catch (IOException e ) {}
+    }
     public void Tomarfoto(){
         Intent i = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         imagenTomada = true;
@@ -486,7 +497,6 @@ public class formularios extends AppCompatActivity implements Serializable {
         storageReference.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
             @Override
             public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                // Toast.makeText(getContext(), "Completa los cuadros", Toast.LENGTH_SHORT).show();
                 Toast.makeText(formularios.this, "Dato agregado correctamente", Toast.LENGTH_SHORT).show();
             }
         });

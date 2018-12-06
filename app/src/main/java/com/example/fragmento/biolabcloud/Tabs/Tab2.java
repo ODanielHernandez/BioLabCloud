@@ -1,11 +1,11 @@
 package com.example.fragmento.biolabcloud.Tabs;
 
+import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Color;
 import android.location.Location;
 import android.net.Uri;
 import android.os.Build;
@@ -15,36 +15,30 @@ import android.support.annotation.RequiresApi;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
+import android.view.animation.AccelerateDecelerateInterpolator;
+import android.view.animation.Animation;
+import android.view.animation.LinearInterpolator;
+import android.view.animation.RotateAnimation;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.fragmento.biolabcloud.FirebaseReference;
-import com.example.fragmento.biolabcloud.MainActivity;
 import com.example.fragmento.biolabcloud.R;
 import com.example.fragmento.biolabcloud.formularios;
-import com.example.fragmento.biolabcloud.modelo.Organismo;
-import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.google.android.gms.maps.model.Polygon;
-import com.google.android.gms.maps.model.PolygonOptions;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.FirebaseApp;
@@ -53,7 +47,6 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FileDownloadTask;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
@@ -61,9 +54,6 @@ import com.google.firebase.storage.StorageReference;
 import java.io.File;
 import java.io.IOException;
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Random;
@@ -73,36 +63,33 @@ import java.util.StringTokenizer;
 public class Tab2 extends Fragment implements OnMapReadyCallback,GoogleMap.OnInfoWindowClickListener,Serializable {
     private Tab2.OnFragmentInteractionListener mListener;
 
+
     private GoogleMap mMap;
     View mapView;
-    Random random= new Random();
+    Random random = new Random();
 
-
-    ArrayList<Organismo> listPerson = new ArrayList<Organismo>();
 
     FirebaseDatabase firebaseDatabase;
-    DatabaseReference databaseReference,primary;
+    DatabaseReference databaseReference, primary;
 
-    ImageButton newMarker;
-    public static double Lat= 0;
-    public static double Long= 0;
+    ImageButton newMarker,btn_refresh;
+    public static double Lat = 0;
+    public static double Long = 0;
     final String[] pos = new String[1];
     Marker EventMarker;
+    Bitmap bitmap;
 
+    ImageView imagenOrganismo;
     public static Bitmap imagenEjemplar;
-    static ArrayList<String> listOfValues;
-
-
-    Organismo personaSelected;
-    ListView listV_personas;
-
 
     public Tab2() {
         // Required empty public constructor
     }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
 
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_tab2, container, false);
@@ -111,6 +98,8 @@ public class Tab2 extends Fragment implements OnMapReadyCallback,GoogleMap.OnInf
         inicializarFirebase();
 
         newMarker = (ImageButton) v.findViewById(R.id.btn_draw_State);
+        btn_refresh = v.findViewById(R.id.btn_refresh);
+
         newMarker.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -118,8 +107,34 @@ public class Tab2 extends Fragment implements OnMapReadyCallback,GoogleMap.OnInf
             }
         });
 
+        btn_refresh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {RotateAnimation rotate = new RotateAnimation(0,360,
+                Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
+                rotate.setDuration(1000);
+                rotate.setRepeatCount(0);
+                rotate.setInterpolator(new LinearInterpolator());
+                btn_refresh.startAnimation(rotate);
+
+                mMap.clear();
+                ubicarReportes(mMap);
+                Toast.makeText(getContext(), "Marcadores Actualizados", Toast.LENGTH_SHORT).show();
+
+                btn_refresh.startAnimation(rotate);
+            }
+        });
+
         mapFragment.getMapAsync(this);
         return v;
+    }
+
+
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        SupportMapFragment mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.mapView);
+        mapFragment.getMapAsync(this);
     }
 
     public interface OnFragmentInteractionListener {
@@ -156,11 +171,11 @@ public class Tab2 extends Fragment implements OnMapReadyCallback,GoogleMap.OnInf
 
 
                 googleMap.setInfoWindowAdapter(new GoogleMap.InfoWindowAdapter() {
+                    @SuppressLint("SetTextI18n")
                     @Override
                     public View getInfoWindow(Marker marker) {
                         final Map<String, String> value = (Map<String, String>)marker.getTag();
 
-                        DescargarImagen("Observacion",value.get("uid"));
                         final String titulo = value.get("nombre");
                         final String arg1 = value.get("familia");
                         final String arg2 = value.get("descripcion");
@@ -168,7 +183,23 @@ public class Tab2 extends Fragment implements OnMapReadyCallback,GoogleMap.OnInf
                         final String arg4 = value.get("fecha");
                         final String arg5 = value.get("lugar");
 
+                        View v = getLayoutInflater().inflate(R.layout.custom_infowindow, null);
+                        final TextView nombre = v.findViewById(R.id.organismo);
+                        final TextView Familia = v.findViewById(R.id.familia);
+                        final TextView Descipcion = v.findViewById(R.id.descipcion);
+                        final TextView Cantidad = v.findViewById(R.id.cantidad);
+                        final TextView Lugar = v.findViewById(R.id.lugar);
+                        final TextView Fecha = v.findViewById(R.id.fecha);
+                        imagenOrganismo = v.findViewById(R.id.imagenOrganismo);
 
+                        nombre.setText("Organismo: " + titulo);
+                        Familia.setText("Familia: " + arg1);
+                        Descipcion.setText("Descripción: " + arg2);
+                        Lugar.setText("Lugar: " + arg5);
+                        Cantidad.setText("Cantidad: " + arg3);
+                        Fecha.setText("Fecha: " + arg4);
+
+                        imagenOrganismo.setImageBitmap(DescargarImagen("Observacion",value.get("uid")));
 
                         mMap.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
                             @Override
@@ -188,23 +219,6 @@ public class Tab2 extends Fragment implements OnMapReadyCallback,GoogleMap.OnInf
                             }
                         });
 
-
-                        View v = getLayoutInflater().inflate(R.layout.custom_infowindow, null);
-                        final TextView nombre = v.findViewById(R.id.organismo);
-                        final TextView Familia = v.findViewById(R.id.familia);
-                        final TextView Descipcion = v.findViewById(R.id.descipcion);
-                        final TextView Cantidad = v.findViewById(R.id.cantidad);
-                        final TextView Lugar = v.findViewById(R.id.lugar);
-                        final TextView Fecha = v.findViewById(R.id.fecha);
-                        final ImageView imagenOrganismo = v.findViewById(R.id.imagenOrganismo);
-
-                        nombre.setText("Organismo: " + titulo);
-                        Familia.setText("Familia: " + arg1);
-                        Descipcion.setText("Descripción: " + arg2);
-                        Lugar.setText("Lugar: " + arg5);
-                        Cantidad.setText("Cantidad: " + arg3);
-                        Fecha.setText("Fecha: " + arg4);
-                        imagenOrganismo.setImageBitmap(imagenEjemplar);
                         return v;
                     }
                     @Override
@@ -231,7 +245,7 @@ public class Tab2 extends Fragment implements OnMapReadyCallback,GoogleMap.OnInf
 
 
 
-    public void DescargarImagen(String Referencia, String Nombre){
+    public Bitmap DescargarImagen(String Referencia, final String Nombre){
         FirebaseStorage storage = FirebaseStorage.getInstance();
         StorageReference storageRef = storage.getReferenceFromUrl("gs://biolabcloud.appspot.com/" + Referencia).child(Nombre + ".jpg");
         try {
@@ -239,8 +253,7 @@ public class Tab2 extends Fragment implements OnMapReadyCallback,GoogleMap.OnInf
             storageRef.getFile(localFile).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
                 @Override
                 public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
-                    Bitmap bitmap = BitmapFactory.decodeFile(localFile.getAbsolutePath());
-                    imagenEjemplar = bitmap;
+                    bitmap = BitmapFactory.decodeFile(localFile.getAbsolutePath());
                 }
             }).addOnFailureListener(new OnFailureListener() {
                 @Override
@@ -249,6 +262,7 @@ public class Tab2 extends Fragment implements OnMapReadyCallback,GoogleMap.OnInf
                 }
             });
         } catch (IOException e ) {}
+        return bitmap;
     }
 
     @RequiresApi(api = Build.VERSION_CODES.M)
@@ -264,6 +278,7 @@ public class Tab2 extends Fragment implements OnMapReadyCallback,GoogleMap.OnInf
         mMap.setMyLocationEnabled(true);
         moveMarker();
         ubicarReportes(mMap);
+
     }
 
     private void setMapLongClick(final GoogleMap map) {

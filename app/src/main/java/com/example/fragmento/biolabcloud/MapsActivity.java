@@ -87,7 +87,22 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 mMap.addMarker(markerOptions);
             }
 
-        }else{
+        }else if(dedondevengo == 2){
+            StringTokenizer token = new StringTokenizer(objeto.getUbicacion(), ",;");
+
+            //Toast.makeText(getApplicationContext(),objUbi,Toast.LENGTH_SHORT).show();
+            while(token.hasMoreTokens()) {
+                String Latitud = token.nextToken();
+                String Longitud = token.nextToken();
+
+                MarkerOptions markerOptions = new MarkerOptions();
+                markerOptions.position(new LatLng(Double.parseDouble(Latitud), Double.parseDouble(Longitud)));
+                markerOptions.title(objeto.getNombre());
+
+                mMap.addMarker(markerOptions);
+            }
+            setMapLongClick(mMap);
+        } else{
             setMapLongClick(mMap);
         }
 

@@ -15,6 +15,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="331feb79-0eb7-4d77-958f-38f7439af6b8" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$11.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$13.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi_btn_refresh.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi_btn_refresh.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi_btn_refresh.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi_btn_refresh.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$11.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$13.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/btn_refresh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/btn_refresh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/btn_refresh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/btn_refresh.png" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
@@ -24,145 +36,322 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/compat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/compat/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/constraint/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/constraint/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/coreui/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/coreui/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/coreutils/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/coreutils/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/fragment/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/fragment/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/graphics/drawable/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/graphics/drawable/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/mediacompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/mediacompat/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/transition/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/transition/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v4/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v4/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/fragmento/biolabcloud/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/fragmento/biolabcloud/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/base/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/base/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/maps/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/maps/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/database/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/database/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/storage/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/storage/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/jjoe64/graphview/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/jjoe64/graphview/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/spark/submitbutton/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/spark/submitbutton/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/constraint/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/constraint/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Ayudas/ayudaOPCIONES.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Ayudas/ayudaOPCIONES.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/InicioSesion.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/InicioSesion.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/MainActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/MainActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/MapsActivity$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/MapsActivity$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/MapsActivity$1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/MapsActivity$1$2.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/MapsActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/MapsActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/MapsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/MapsActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/MessageAdapter$CustomViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/MessageAdapter$CustomViewHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/PageAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/PageAdapter.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$font.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$font.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$integer.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$menu.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$mipmap.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab1$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab1$3.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab1$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab1$4.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab1$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab1$5.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab2$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab2$2$1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab2$2$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab2$2.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab2$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab2$3.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab2$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab2$4.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab2$5$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab2$5$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab2$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab2$5.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab2$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab2$6.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab2.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab3.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab4.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/Tabs/Tab5.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/contacto.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/contacto.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$10.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$9.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$13.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$12.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$14.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$14.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$15.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$15.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$16.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$16.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$2.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$3.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$4.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$5.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$6.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$8.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios$7.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/formularios.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/imagenejemplar.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/imagenejemplar.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/modelo/Adaptador.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/fragmento/biolabcloud/modelo/Adaptador.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/base/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/base/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/base/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/base/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/maps/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/maps/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/database/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/database/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/database/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/database/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/storage/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/storage/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/storage/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/storage/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/jjoe64/graphview/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/jjoe64/graphview/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/jjoe64/graphview/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/jjoe64/graphview/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/spark/submitbutton/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/spark/submitbutton/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/spark/submitbutton/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/spark/submitbutton/R$id.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bn/values-bn.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn/values-mn.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/IU5kZ3xq_hLM4NqmNv6qtnnXLfY=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/IU5kZ3xq_hLM4NqmNv6qtnnXLfY=" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/output.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/output.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/output.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi_btn_draw_state.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi_btn_draw_state.png.flat" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi_btn_draw_state.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi_btn_draw_state.png.flat" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi_btn_draw_state.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi_btn_draw_state.png.flat" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi_btn_draw_state.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi_btn_draw_state.png.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_contacto.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_contacto.xml.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_tab2.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_tab2.xml.flat" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/1.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/1.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/10.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/10.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/11.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/11.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/12.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/12.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/13.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/13.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/15.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/15.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/17.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/17.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/18.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/18.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/19.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/19.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/2.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/2.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/20.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/20.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/22.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/22.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/23.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/23.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/24.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/24.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/25.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/25.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/26.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/26.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/30.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/30.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/31.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/31.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/32.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/32.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/33.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/33.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/35.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/35.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/38.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/38.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/39.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/39.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/4.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/4.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/40.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/40.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/43.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/43.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/44.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/44.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/45.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/45.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/46.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/46.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/47.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/47.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/48.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/48.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/49.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/49.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/5.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/5.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/51.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/51.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/52.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/52.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/53.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/53.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/54.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/54.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/55.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/55.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/56.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/56.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/57.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/57.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/59.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/59.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/62.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/62.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/63.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/63.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/64.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/64.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/67.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/67.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/68.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/68.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/69.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/69.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/7.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/7.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/70.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/70.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/71.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/71.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/compat/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/compat/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/compat/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/compat/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/constraint/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/constraint/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/coreui/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/coreui/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/coreui/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/coreui/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/coreutils/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/coreutils/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/coreutils/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/coreutils/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/design/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/design/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/design/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/design/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/fragment/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/fragment/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/fragment/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/fragment/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/graphics/drawable/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/graphics/drawable/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/graphics/drawable/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/graphics/drawable/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/graphics/drawable/animated/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/graphics/drawable/animated/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/graphics/drawable/animated/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/graphics/drawable/animated/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/mediacompat/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/mediacompat/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/mediacompat/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/mediacompat/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/transition/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/transition/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/transition/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/transition/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/v4/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/v4/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/v4/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/v4/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/v7/appcompat/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/v7/appcompat/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/v7/appcompat/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/v7/appcompat/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/v7/recyclerview/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/v7/recyclerview/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/v7/recyclerview/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/android/support/v7/recyclerview/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Ayudas/ayudaOPCIONES.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Ayudas/ayudaOPCIONES.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/InicioSesion.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/InicioSesion.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/MainActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/MainActivity$1.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/MainActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/MainActivity.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/MapsActivity$1$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/MapsActivity$1$1.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/MapsActivity$1$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/MapsActivity$1$2.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/MapsActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/MapsActivity$1.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/MapsActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/MapsActivity.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/MessageAdapter$CustomViewHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/MessageAdapter$CustomViewHolder.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/PageAdapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/PageAdapter.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$font.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$font.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$integer.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$integer.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$layout.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$menu.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$menu.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$mipmap.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$mipmap.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$style.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/R$styleable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab1$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab1$3.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab1$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab1$4.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab1$5.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab1$5.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab1.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab2$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab2$1.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab2$2$1$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab2$2$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab2$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab2$2.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab2$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab2$3.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab2$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab2$4.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab2$5$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab2$5$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab2$5.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab2$5.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab2$6.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab2$6.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab2.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab3.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab4.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab5.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/Tabs/Tab5.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/contacto.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/contacto.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$10.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$10.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$11.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$9.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$13.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$12.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$14.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$14.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$15.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$15.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$16.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$16.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$2.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$3.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$4.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$5.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$5.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$6.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$6.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$7.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$7.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$8.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios$8.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/formularios.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/imagenejemplar.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/imagenejemplar.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/modelo/Adaptador.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/example/fragmento/biolabcloud/modelo/Adaptador.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/google/android/gms/base/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/google/android/gms/base/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/google/android/gms/base/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/google/android/gms/base/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/google/android/gms/maps/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/google/android/gms/maps/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/google/firebase/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/google/firebase/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/google/firebase/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/google/firebase/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/google/firebase/database/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/google/firebase/database/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/google/firebase/database/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/google/firebase/database/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/google/firebase/storage/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/google/firebase/storage/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/google/firebase/storage/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/google/firebase/storage/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/jjoe64/graphview/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/jjoe64/graphview/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/jjoe64/graphview/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/jjoe64/graphview/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/spark/submitbutton/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/spark/submitbutton/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/spark/submitbutton/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/72/com/spark/submitbutton/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/8.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/8.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9.jar" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/BioLabCloud.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/BioLabCloud.apk" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/MainActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/MapsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/MapsActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/PageAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/PageAdapter.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab1.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab1.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab2.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/formularios.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/formularios.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/btn_draw_state.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/btn_draw_state.png" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/btn_draw_state.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/btn_draw_state.png" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/btn_draw_state.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/btn_draw_state.png" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/btn_draw_state.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/btn_draw_state.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_contacto.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_contacto.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab2.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -185,117 +374,119 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="activity_contacto.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_contacto.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="217" column="22" lean-forward="false" selection-start-line="217" selection-start-column="22" selection-end-line="217" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapsActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/MapsActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="127" column="87" lean-forward="false" selection-start-line="127" selection-start-column="87" selection-end-line="127" selection-end-column="87" />
-              <folding>
-                <element signature="e#6496#6497#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tab3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="230" column="35" lean-forward="false" selection-start-line="230" selection-start-column="28" selection-end-line="230" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Tab1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="278" column="43" lean-forward="false" selection-start-line="278" selection-start-column="43" selection-end-line="278" selection-end-column="43" />
+            <state relative-caret-position="17">
+              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tab2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Tab2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2482">
-              <caret line="357" column="18" lean-forward="false" selection-start-line="357" selection-start-column="18" selection-end-line="357" selection-end-column="18" />
+            <state relative-caret-position="238">
+              <caret line="113" column="41" lean-forward="false" selection-start-line="113" selection-start-column="41" selection-end-line="114" selection-end-column="41" />
               <folding>
-                <element signature="e#4064#4211#0" expanded="true" />
-                <element signature="e#4210#4211#0" expanded="true" />
-                <element signature="e#14356#14751#0" expanded="true" />
-                <element signature="e#14750#14751#0" expanded="true" />
+                <element signature="e#3600#3747#0" expanded="true" />
+                <element signature="e#3746#3747#0" expanded="true" />
+                <element signature="e#3790#4466#0" expanded="true" />
+                <element signature="e#4465#4466#0" expanded="true" />
+                <element signature="e#7903#8748#0" expanded="true" />
+                <element signature="e#8747#8748#0" expanded="true" />
+                <element signature="e#8901#8902#0" expanded="true" />
+                <element signature="e#8960#8961#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="30" column="195" lean-forward="false" selection-start-line="30" selection-start-column="195" selection-end-line="30" selection-end-column="195" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="fragment_tab2.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tab2.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="56" />
+            <state relative-caret-position="318">
+              <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
+            <state relative-caret-position="323">
               <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <file leaf-file-name="background2.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/background2.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="68">
+              <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <file leaf-file-name="custom_infowindow.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_infowindow.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="323">
+              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="35" />
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <file leaf-file-name="Tab3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="35" column="62" lean-forward="false" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+            <state relative-caret-position="1904">
+              <caret line="155" column="41" lean-forward="false" selection-start-line="155" selection-start-column="41" selection-end-line="155" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -326,11 +517,11 @@
       <find>descargar</find>
       <find>listP</find>
       <find>list</find>
-      <find>dedonde</find>
       <find>listar</find>
       <find>dedondevengo</find>
       <find>toas</find>
       <find>converci</find>
+      <find>dedonde</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2387,8 +2578,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/Tabs/layout/activity_imagenejemplar.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_formularios.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab3.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/MapsActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/formularios.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/custom_infowindow.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab3.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab5.xml" />
@@ -2397,19 +2586,22 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Ayudas/ayudaOpciones.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ayuda_opciones.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ayuda_map.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Ayudas/ayudaMAPA.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Ayudas/ayudaOPCIONES.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab5.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/contacto.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_contacto.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab2.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/PageAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/MapsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/formularios.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab1.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab2.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab2.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -2435,6 +2627,100 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+            </path>
+            <path>
+              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="fragmento" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="fragmento" type="462c0819:PsiDirectoryNode" />
+              <item name="biolabcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="fragmento" type="462c0819:PsiDirectoryNode" />
+              <item name="biolabcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="Tabs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BioLabCloud" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2534,6 +2820,19 @@
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="fragmento" type="462c0819:PsiDirectoryNode" />
               <item name="biolabcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="modelo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BioLabCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BioLabCloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="fragmento" type="462c0819:PsiDirectoryNode" />
+              <item name="biolabcloud" type="462c0819:PsiDirectoryNode" />
               <item name="Tabs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -2543,6 +2842,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BioLabCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BioLabCloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="drawable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BioLabCloud" type="b2602c69:ProjectViewProjectNode" />
@@ -2567,106 +2875,12 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="fragmento" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="fragmento" type="462c0819:PsiDirectoryNode" />
-              <item name="biolabcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="fragmento" type="462c0819:PsiDirectoryNode" />
-              <item name="biolabcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="Tabs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="BioLabCloud" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BioLabCloud" type="58d84e3e:PackageViewProjectNode" />
-              <item name="app" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/agroNode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../losMijos" />
     <property name="device.picker.selection" value="HT57WB002106" />
   </component>
   <component name="RecentsManager">
@@ -2868,22 +3082,22 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25427872" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25366747" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20786516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43146068" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23777506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27078652" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2906,26 +3120,26 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6719101" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43146068" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27078652" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25427872" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25366747" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23777506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -2942,132 +3156,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/debug/java/com/example/fragmento/biolabcloud/borrar.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/debug/AndroidManifest.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_inicio_sesion.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_nuevo.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/Tabs/layout/content_imagenejemplar.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/imagenejemplar.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_imagenejemplar.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_maps.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_formularios.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="234" column="41" lean-forward="false" selection-start-line="234" selection-start-column="29" selection-end-line="234" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/formularios.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="275" column="49" lean-forward="false" selection-start-line="275" selection-start-column="49" selection-end-line="275" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5604#5857#0" expanded="false" />
-            <element signature="e#5856#5857#0" expanded="false" />
-            <element signature="e#7564#7817#0" expanded="false" />
-            <element signature="e#7816#7817#0" expanded="false" />
-            <element signature="e#8019#8358#0" expanded="false" />
-            <element signature="e#8357#8358#0" expanded="false" />
-            <element signature="e#8402#8735#0" expanded="false" />
-            <element signature="e#8734#8735#0" expanded="false" />
-            <element signature="e#11656#12791#0" expanded="false" />
-            <element signature="e#12790#12791#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_infowindow.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/InicioSesion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="40" column="56" lean-forward="false" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/elemento_lista.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="97" column="40" lean-forward="false" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Ayudas/ayudaBIOLAB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3075,15 +3167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/imagenejemplar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3091,91 +3174,73 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_help.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/help.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ayuda_biolab.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4046">
           <caret line="306" column="14" lean-forward="false" selection-start-line="306" selection-start-column="14" selection-end-line="381" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ayuda_map.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ayuda_map.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="144" column="44" lean-forward="false" selection-start-line="144" selection-start-column="44" selection-end-line="144" selection-end-column="44" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Ayudas/ayudaESTADO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ayuda_estado.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="141" column="17" lean-forward="false" selection-start-line="141" selection-start-column="17" selection-end-line="141" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tab3.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tab3.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Ayudas/ayudaMAPA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ayuda_chat.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Ayudas/ayudaOPCIONES.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="37" column="61" lean-forward="false" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3195,27 +3260,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tab1.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1767">
-          <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-          <folding>
-            <element signature="e#4971#5011#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -3225,44 +3269,244 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ayuda_opciones.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="5" selection-end-column="46" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tab4.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tab5.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tab5.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="47" column="39" lean-forward="false" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="39" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/contacto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" column="88" lean-forward="false" selection-start-line="31" selection-start-column="88" selection-end-line="31" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_contacto.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3689">
+          <caret line="217" column="22" lean-forward="false" selection-start-line="217" selection-start-column="22" selection-end-line="217" selection-end-column="22" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/button_selector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_gradient.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_edit_text.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/mytextview.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tab1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2516">
+          <caret line="148" column="43" lean-forward="false" selection-start-line="148" selection-start-column="43" selection-end-line="148" selection-end-column="43" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/backgroundbtn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/elemento_lista.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/modelo/data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/modelo/Organismo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/buttonshape.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_imagenejemplar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="18" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="62" lean-forward="false" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/imagenejemplar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/modelo/Adaptador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/PageAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/MapsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="89" column="34" lean-forward="false" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/formularios.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4420">
+          <caret line="308" column="51" lean-forward="false" selection-start-line="308" selection-start-column="51" selection-end-line="308" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="155" column="41" lean-forward="false" selection-start-line="155" selection-start-column="41" selection-end-line="155" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_infowindow.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -3273,115 +3517,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/contacto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="31" column="88" lean-forward="false" selection-start-line="31" selection-start-column="88" selection-end-line="31" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_contacto.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="217" column="22" lean-forward="false" selection-start-line="217" selection-start-column="22" selection-end-line="217" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/MapsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="127" column="87" lean-forward="false" selection-start-line="127" selection-start-column="87" selection-end-line="127" selection-end-column="87" />
-          <folding>
-            <element signature="e#6496#6497#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tab2.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="56" />
+        <state relative-caret-position="17">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="323">
           <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/background2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="68">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tab2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="35" column="62" lean-forward="false" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+        <state relative-caret-position="318">
+          <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="278" column="43" lean-forward="false" selection-start-line="278" selection-start-column="43" selection-end-line="278" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="230" column="35" lean-forward="false" selection-start-line="230" selection-start-column="28" selection-end-line="230" selection-end-column="35" />
-          <folding />
-        </state>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/Tabs/Tab2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2482">
-          <caret line="357" column="18" lean-forward="false" selection-start-line="357" selection-start-column="18" selection-end-line="357" selection-end-column="18" />
+        <state relative-caret-position="238">
+          <caret line="113" column="41" lean-forward="false" selection-start-line="113" selection-start-column="41" selection-end-line="114" selection-end-column="41" />
           <folding>
-            <element signature="e#4064#4211#0" expanded="true" />
-            <element signature="e#4210#4211#0" expanded="true" />
-            <element signature="e#14356#14751#0" expanded="true" />
-            <element signature="e#14750#14751#0" expanded="true" />
+            <element signature="e#3600#3747#0" expanded="true" />
+            <element signature="e#3746#3747#0" expanded="true" />
+            <element signature="e#3790#4466#0" expanded="true" />
+            <element signature="e#4465#4466#0" expanded="true" />
+            <element signature="e#7903#8748#0" expanded="true" />
+            <element signature="e#8747#8748#0" expanded="true" />
+            <element signature="e#8901#8902#0" expanded="true" />
+            <element signature="e#8960#8961#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fragmento/biolabcloud/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="30" column="195" lean-forward="false" selection-start-line="30" selection-start-column="195" selection-end-line="30" selection-end-column="195" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>

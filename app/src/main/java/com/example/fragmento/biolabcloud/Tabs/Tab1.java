@@ -90,6 +90,8 @@ public class Tab1 extends Fragment {
             }
         });
 
+
+
         getFirebaseDataForAct("Act1",luz);
         getFirebaseDataForAct("Act2",extractor);
 

@@ -23,6 +23,8 @@ import com.example.fragmento.biolabcloud.Tabs.Tab2;
 import com.example.fragmento.biolabcloud.Tabs.Tab3;
 import com.example.fragmento.biolabcloud.Tabs.Tab4;
 
+import java.util.Objects;
+
 
 public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentInteractionListener,Tab2.OnFragmentInteractionListener,Tab3.OnFragmentInteractionListener,Tab4.OnFragmentInteractionListener{
 
@@ -58,6 +60,7 @@ public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentIn
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
         final PagerAdapter adapter = new PageAdapter(getSupportFragmentManager(),tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
+        Objects.requireNonNull(viewPager.getAdapter()).notifyDataSetChanged();
         viewPager.setOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
