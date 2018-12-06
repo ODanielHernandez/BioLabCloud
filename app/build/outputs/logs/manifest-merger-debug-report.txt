@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-64:12
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-64:12
 MERGED from [me.spark:submitbutton:1.0.1] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\submitbutton-1.0.1.aar\47f58c54976ac43bafcbe40a46233287\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\ccf9d206188e78f48fdcd0daaf3eacdb\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\9b9a37f2eb707b06fb4fc293e513cb6f\AndroidManifest.xml:17:1-22:12
@@ -47,35 +47,35 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Hernan\.gradle
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\305538a399ac3f924cc78489f690f227\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\49a4d189d985141438fa625cd188095d\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6c71b06f06aefdc239509988f4a07248\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:4:5-48
-		INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:4:5-48
+		INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-64:12
-		INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-64:12
+		INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-64:12
-		INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:2:1-64:12
+		INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:6:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:7:5-81
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:8:5-67
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:8:5-67
 MERGED from [com.google.firebase:firebase-storage:16.0.5] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.0.5.aar\2a75c397045d832c62a5a9d288961f61\AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-storage:16.0.5] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.0.5.aar\2a75c397045d832c62a5a9d288961f61\AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-database:16.0.5] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.5.aar\217bea4c761ee4544b797e49aa96b177\AndroidManifest.xml:23:5-67
@@ -91,25 +91,25 @@ MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] C:\Users\Hernan
 MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\a252fc8e7901dc76047a3b80ad2bd839\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\a252fc8e7901dc76047a3b80ad2bd839\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:8:22-64
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:8:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:9:5-80
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:9:5-80
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:9:22-77
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:9:22-77
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:10:5-65
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:10:5-65
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:10:22-62
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:10:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:11:5-81
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:11:22-78
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:11:22-78
 uses-feature#android.hardware.camera
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:13:5-60
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:13:5-60
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:13:19-57
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:13:19-57
 application
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:15:5-62:19
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:15:5-62:19
 MERGED from [me.spark:submitbutton:1.0.1] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\submitbutton-1.0.1.aar\47f58c54976ac43bafcbe40a46233287\AndroidManifest.xml:11:5-15:19
 MERGED from [me.spark:submitbutton:1.0.1] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\submitbutton-1.0.1.aar\47f58c54976ac43bafcbe40a46233287\AndroidManifest.xml:11:5-15:19
 MERGED from [com.google.firebase:firebase-core:16.0.5] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.5.aar\246d4b8adc5da172c61aed16bc24eeb3\AndroidManifest.xml:7:5-20
@@ -157,95 +157,95 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\User
 MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\f40ba7e453918a220482df896e8a7d6b\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\f40ba7e453918a220482df896e8a7d6b\AndroidManifest.xml:22:5-26:19
 	tools:node
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:23:9-27
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:23:9-27
 	android:supportsRtl
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:21:9-35
 	android:label
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:19:9-41
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:19:9-41
 	android:roundIcon
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:20:9-54
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:20:9-54
 	android:icon
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:18:9-49
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:18:9-49
 	android:allowBackup
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:17:9-35
 	android:theme
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:22:9-65
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:22:9-65
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:16:9-37
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:16:9-37
 activity#com.example.fragmento.biolabcloud.MainActivity
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:24:9-50
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:24:9-50
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:24:19-47
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:24:19-47
 activity#com.example.fragmento.biolabcloud.InicioSesion
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:25:9-33:20
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:25:9-33:20
 	android:label
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:27:13-45
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:27:13-45
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:26:13-41
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:26:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:28:13-32:29
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:31:17-77
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:31:27-74
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:31:27-74
 meta-data#preloaded_fonts
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:35:9-37:57
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:35:9-37:57
 	android:resource
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:37:13-54
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:37:13-54
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:36:13-43
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:36:13-43
 activity#com.example.fragmento.biolabcloud.formularios
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:39:9-49
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:39:9-49
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:39:19-46
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:39:19-46
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:48:9-50:55
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:48:9-50:55
 	android:value
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:50:13-52
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:50:13-52
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:49:13-58
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:49:13-58
 activity#com.example.fragmento.biolabcloud.MapsActivity
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:52:9-54:59
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:52:9-54:59
 	android:label
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:54:13-56
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:54:13-56
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:53:13-41
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:53:13-41
 activity#com.example.fragmento.biolabcloud.imagenejemplar
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:55:9-52
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:55:9-52
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:55:19-49
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:55:19-49
 activity#com.example.fragmento.biolabcloud.Ayudas.ayudaOPCIONES
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:56:9-57
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:56:9-57
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:56:19-55
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:56:19-55
 activity#com.example.fragmento.biolabcloud.Ayudas.ayudaBIOLAB
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:57:9-55
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:57:9-55
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:57:19-53
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:57:19-53
 activity#com.example.fragmento.biolabcloud.Ayudas.ayudaCHAT
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:58:9-53
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:58:9-53
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:58:19-51
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:58:19-51
 activity#com.example.fragmento.biolabcloud.Ayudas.ayudaESTADO
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:59:9-55
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:59:9-55
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:59:19-53
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:59:19-53
 activity#com.example.fragmento.biolabcloud.Ayudas.ayudaMAPA
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:60:9-53
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:60:9-53
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:60:19-51
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:60:19-51
 activity#com.example.fragmento.biolabcloud.contacto
-ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:61:9-55
+ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:61:9-55
 	android:name
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml:61:19-43
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml:61:19-43
 uses-sdk
-INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml
 MERGED from [me.spark:submitbutton:1.0.1] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\submitbutton-1.0.1.aar\47f58c54976ac43bafcbe40a46233287\AndroidManifest.xml:7:5-9:41
 MERGED from [me.spark:submitbutton:1.0.1] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\submitbutton-1.0.1.aar\47f58c54976ac43bafcbe40a46233287\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:27.1.1] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\ccf9d206188e78f48fdcd0daaf3eacdb\AndroidManifest.xml:20:5-44
@@ -332,16 +332,16 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Hernan\.gradle\cache
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\49a4d189d985141438fa625cd188095d\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6c71b06f06aefdc239509988f4a07248\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6c71b06f06aefdc239509988f4a07248\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Hernan\Desktop\biolabs\BioLabCloud\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hernan\Documents\GitHub\BioLabCloud\app\src\main\AndroidManifest.xml
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Hernan\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\ae0d3579acd0346cb364feef5679ab33\AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents

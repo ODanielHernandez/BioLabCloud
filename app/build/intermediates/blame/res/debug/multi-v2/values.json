@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Hernan\\Desktop\\biolabs\\BioLabCloud\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Hernan\\Documents\\GitHub\\BioLabCloud\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\Hernan\\Desktop\\biolabs\\BioLabCloud\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "5,2,4,3,7",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "206,55,153,102,250",
-                        "endLines": "5,2,4,3,9",
-                        "endColumns": "42,46,52,50,12",
-                        "endOffsets": "244,97,201,148,338"
-                    },
-                    "to": {
-                        "startLines": "176,177,178,179,2324",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "11609,11652,11699,11752,171891",
-                        "endLines": "176,177,178,179,2326",
-                        "endColumns": "42,46,52,50,12",
-                        "endOffsets": "11647,11694,11747,11798,171979"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Hernan\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\92460344c9e25fd45da396822761a7c3\\res\\values\\values.xml",
                     "from": {
@@ -40,7 +21,43 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Hernan\\Desktop\\biolabs\\BioLabCloud\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\Hernan\\Documents\\GitHub\\BioLabCloud\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "5,2,4,3,7",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "206,55,153,102,250",
+                        "endLines": "5,2,4,3,9",
+                        "endColumns": "42,46,52,50,12",
+                        "endOffsets": "244,97,201,148,338"
+                    },
+                    "to": {
+                        "startLines": "176,177,178,179,2324",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "11609,11652,11699,11752,171891",
+                        "endLines": "176,177,178,179,2326",
+                        "endColumns": "42,46,52,50,12",
+                        "endOffsets": "11647,11694,11747,11798,171979"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hernan\\Documents\\GitHub\\BioLabCloud\\app\\src\\debug\\res\\values\\google_maps_api.xml",
+                    "from": {
+                        "startLines": "22",
+                        "startColumns": "4",
+                        "startOffsets": "901",
+                        "endColumns": "137",
+                        "endOffsets": "1034"
+                    },
+                    "to": {
+                        "startLines": "912",
+                        "startColumns": "4",
+                        "startOffsets": "77778",
+                        "endColumns": "137",
+                        "endOffsets": "77911"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hernan\\Documents\\GitHub\\BioLabCloud\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "6,1,4,12,11,13,16,14,15",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -59,22 +76,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Hernan\\Desktop\\biolabs\\BioLabCloud\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
+                    "source": "C:\\Users\\Hernan\\Documents\\GitHub\\BioLabCloud\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "157"
+                        "endColumns": "56",
+                        "endOffsets": "107"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "207",
                         "startColumns": "4",
-                        "startOffsets": "3785",
-                        "endLines": "22",
-                        "endColumns": "12",
-                        "endOffsets": "3887"
+                        "startOffsets": "13760",
+                        "endColumns": "56",
+                        "endOffsets": "13812"
                     }
                 },
                 {
@@ -114,20 +129,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Hernan\\Desktop\\biolabs\\BioLabCloud\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "source": "C:\\Users\\Hernan\\Documents\\GitHub\\BioLabCloud\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,305,387,491,594,714,809",
-                        "endColumns": "143,105,81,103,102,119,94,71",
-                        "endOffsets": "194,300,382,486,589,709,804,876"
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "41",
+                        "endOffsets": "53"
                     },
                     "to": {
-                        "startLines": "906,907,908,909,910,911,913,922",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "77119,77263,77369,77451,77555,77658,77916,78999",
-                        "endColumns": "143,105,81,103,102,119,94,71",
-                        "endOffsets": "77258,77364,77446,77550,77653,77773,78006,79066"
+                        "startLines": "776",
+                        "startColumns": "4",
+                        "startOffsets": "67622",
+                        "endColumns": "41",
+                        "endOffsets": "67659"
                     }
                 },
                 {
@@ -201,26 +216,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Hernan\\Desktop\\biolabs\\BioLabCloud\\app\\src\\main\\res\\values\\font_certs.xml",
-                    "from": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,257,1982",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "252,1977,3567"
-                    },
-                    "to": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "150,352,2077",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "347,2072,3662"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Hernan\\Desktop\\biolabs\\BioLabCloud\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\Hernan\\Documents\\GitHub\\BioLabCloud\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,17,28,22,11",
                         "startColumns": "4,4,4,4,4",
@@ -255,23 +251,6 @@
                         "endLines": "188,189,190,191,192,193,194,195,196,736,737,738,739,740,741,742,743,744,745,746,747,748,749,750,751,752,753,754,755,756,757,758,759,760,761,762,763,764,765,766,767,768,769,770,771,772,773,834,835,843,846,847,850,852,853,885,886,887,917,918,919,920,921,937,1268,2005,2015,2298,2299,2302,2305,2308,2312,2317,2359,2364,2368,2373,2377,2381,2486,2490,2497,2501,2504,2513,2519,2522,2531,2535,2544",
                         "endColumns": "73,80,63,65,69,69,69,69,66,53,78,72,64,62,70,70,61,68,65,66,66,55,50,52,51,53,62,58,61,58,59,62,74,71,70,55,70,56,56,65,63,70,56,52,62,51,57,46,44,47,65,61,62,56,56,144,120,86,90,300,165,154,101,12,12,96,12,12,91,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12",
                         "endOffsets": "12543,12624,12688,12754,12824,12894,12964,13034,13101,65116,65195,65268,65333,65396,65467,65538,65600,65669,65735,65802,65869,65925,65976,66029,66081,66135,66198,66257,66319,66378,66438,66501,66576,66648,66719,66775,66846,66903,66960,67026,67090,67161,67218,67271,67334,67386,67444,71148,71193,71574,71766,71828,72008,72133,72190,74573,74694,74781,78270,78571,78737,78892,78994,80134,102387,148451,149042,170300,170392,170571,170739,170914,171167,171458,174355,174713,174945,175315,175475,175629,184110,184351,184786,184993,185177,185742,186103,186232,186899,187079,187788"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Hernan\\Desktop\\biolabs\\BioLabCloud\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "56",
-                        "endOffsets": "107"
-                    },
-                    "to": {
-                        "startLines": "207",
-                        "startColumns": "4",
-                        "startOffsets": "13760",
-                        "endColumns": "56",
-                        "endOffsets": "13812"
                     }
                 },
                 {
@@ -311,6 +290,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Hernan\\Documents\\GitHub\\BioLabCloud\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "157"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "3785",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "3887"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Hernan\\.gradle\\caches\\transforms-1\\files-1.1\\support-core-ui-27.1.1.aar\\cc6ecdcfa423709a96a31cc5a282de60\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,66",
@@ -330,37 +328,39 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Hernan\\Desktop\\biolabs\\BioLabCloud\\app\\src\\debug\\res\\values\\google_maps_api.xml",
+                    "source": "C:\\Users\\Hernan\\Documents\\GitHub\\BioLabCloud\\app\\src\\main\\res\\values\\font_certs.xml",
                     "from": {
-                        "startLines": "22",
-                        "startColumns": "4",
-                        "startOffsets": "901",
-                        "endColumns": "137",
-                        "endOffsets": "1034"
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,257,1982",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "252,1977,3567"
                     },
                     "to": {
-                        "startLines": "912",
-                        "startColumns": "4",
-                        "startOffsets": "77778",
-                        "endColumns": "137",
-                        "endOffsets": "77911"
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "150,352,2077",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "347,2072,3662"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Hernan\\Desktop\\biolabs\\BioLabCloud\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "C:\\Users\\Hernan\\Documents\\GitHub\\BioLabCloud\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "41",
-                        "endOffsets": "53"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,305,387,491,594,714,809",
+                        "endColumns": "143,105,81,103,102,119,94,71",
+                        "endOffsets": "194,300,382,486,589,709,804,876"
                     },
                     "to": {
-                        "startLines": "776",
-                        "startColumns": "4",
-                        "startOffsets": "67622",
-                        "endColumns": "41",
-                        "endOffsets": "67659"
+                        "startLines": "906,907,908,909,910,911,913,922",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "77119,77263,77369,77451,77555,77658,77916,78999",
+                        "endColumns": "143,105,81,103,102,119,94,71",
+                        "endOffsets": "77258,77364,77446,77550,77653,77773,78006,79066"
                     }
                 }
             ]
