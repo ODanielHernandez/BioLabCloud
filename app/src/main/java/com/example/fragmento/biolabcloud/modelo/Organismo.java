@@ -11,10 +11,38 @@ public class Organismo implements Serializable{
     private String cantidad;
     private String fecha;
     private String Ubicacion;
-
+    private String catalogo;
+    private String phylum;
+    private String orden;
 
     public Organismo() {
     }
+
+    public String getOrden() {
+        return orden;
+    }
+
+    public void setOrden(String orden) {
+        this.orden = orden;
+    }
+
+    public String getPhylum() {
+        return phylum;
+    }
+
+    public void setPhylum(String phylum) {
+        this.phylum = phylum;
+    }
+
+    public String getCatalogo() {
+        return catalogo;
+    }
+
+    public void setCatalogo(String catalogo) {
+        this.catalogo = catalogo;
+    }
+
+
 
     public String getUid() {
         return uid;

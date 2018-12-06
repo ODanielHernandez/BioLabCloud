@@ -53,7 +53,7 @@ public class formularios extends AppCompatActivity implements Serializable {
     DatabaseReference databaseReference;
 
     Calendar calendario = Calendar.getInstance();
-    EditText nomP, appP,correoP,passwordP,cantiO,fechaO;
+    EditText nomP, appP,correoP,passwordP,cantiO,fechaO, Catalogo, Phylum, Orden;
     TextView txtUbi;
     ImageView cameraButton;
     LinearLayout btnUbicacion;
@@ -89,7 +89,9 @@ public class formularios extends AppCompatActivity implements Serializable {
         cameraButton = findViewById(R.id.cameraButton);
         txtUbi = findViewById(R.id.textviewUbicacion);
         btnUbicacion = findViewById(R.id.btnUbicacion);
-
+        Catalogo = findViewById(R.id.txtCatalogo);
+        Phylum = findViewById(R.id.txt_Phylum);
+        Orden= findViewById(R.id.txtOrden);
         android.support.v7.widget.Toolbar actionToolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(actionToolbar);
         setTitle("Formulario");
@@ -115,6 +117,9 @@ public class formularios extends AppCompatActivity implements Serializable {
             passwordP.setText(objeto.getLugar());
             cantiO.setText(objeto.getCantidad());
             fechaO.setText(objeto.getFecha());
+            Catalogo.setText(objeto.getCatalogo());
+            Phylum.setText(objeto.getPhylum());
+            Orden.setText(objeto.getOrden());
             DescargarImagen("Observacion",objeto.getUid());
 
             TextView tlt = findViewById(R.id.formulario_titulo);
@@ -141,14 +146,18 @@ public class formularios extends AppCompatActivity implements Serializable {
             passwordP.setEnabled(false);
             cantiO.setEnabled(false);
             fechaO.setEnabled(false);
-
+            Catalogo.setEnabled(false);
+            Phylum.setEnabled(false);
+            Orden.setEnabled(false);
             nomP.setFocusable(false);
             appP.setFocusable(false);
             correoP.setFocusable(false);
             passwordP.setFocusable(false);
             cantiO.setFocusable(false);
             fechaO.setFocusable(false);
-
+            Catalogo.setFocusable(false);
+            Phylum.setFocusable(false);
+            Orden.setFocusable(false);
 
             nomP.setText(objeto.getNombre());
             appP.setText(objeto.getDescripcion());
@@ -156,6 +165,9 @@ public class formularios extends AppCompatActivity implements Serializable {
             passwordP.setText(objeto.getLugar());
             cantiO.setText(objeto.getCantidad());
             fechaO.setText(objeto.getFecha());
+            Catalogo.setText(objeto.getCatalogo());
+            Phylum.setText(objeto.getPhylum());
+            Orden.setText(objeto.getOrden());
             DescargarImagen("Observacion",objeto.getUid());
 
             cameraButton.setOnClickListener(new View.OnClickListener() {
@@ -181,7 +193,9 @@ public class formularios extends AppCompatActivity implements Serializable {
             String tagCantidad =  getIntent().getExtras().getString("cantidad");
             String tagFecha =  getIntent().getExtras().getString("fecha");
             String tagUid =  getIntent().getExtras().getString("uid");
-
+            String tagCatalogo = getIntent().getExtras().getString("catalogo");
+            String tagPhylum = getIntent().getExtras().getString("phylum");
+            String tagOrden = getIntent().getExtras().getString("orden");
             String nombreTab = "Familia " + tagFamilia;
             setTitle(nombreTab);
 
@@ -208,6 +222,9 @@ public class formularios extends AppCompatActivity implements Serializable {
             passwordP.setText(tagLugar);
             cantiO.setText(tagCantidad);
             fechaO.setText(tagFecha);
+            Catalogo.setText(objeto.getCatalogo());
+            Phylum.setText(objeto.getPhylum());
+            Orden.setText(objeto.getOrden());
             DescargarImagen("Observacion", tagUid);
 
             cameraButton.setOnClickListener(new View.OnClickListener() {
@@ -294,12 +311,15 @@ public class formularios extends AppCompatActivity implements Serializable {
         final String app = appP.getText().toString();
         final String canti = cantiO.getText().toString();
         final String fecha= fechaO.getText().toString();
+        final String catalogo= Catalogo.getText().toString();
+        final String phylum= Phylum.getText().toString();
+        final String orden= Orden.getText().toString();
         cameraButton = findViewById(R.id.cameraButton);
 
         switch (item.getItemId()) {
 
             case R.id.icon_nuevo: {
-                if (nombre.equals("") || correo.equals("") || password.equals("") || app.equals("") || canti.equals("") || fecha.equals("") || !imagenTomada || pointUbication == null){
+                if (nombre.equals("") || correo.equals("") || password.equals("") || app.equals("") || canti.equals("") || fecha.equals("")|| orden.equals("")|| phylum.equals("")|| catalogo.equals("") || !imagenTomada || pointUbication == null){
                     validacion();
 
                 } else {
@@ -317,6 +337,9 @@ public class formularios extends AppCompatActivity implements Serializable {
                                 objeto.setLugar(password);
                                 objeto.setCantidad(canti);
                                 objeto.setFecha(fecha);
+                                objeto.setCatalogo(catalogo);
+                                objeto.setPhylum(phylum);
+                                objeto.setOrden(orden);
                                 objeto.setUbicacion(pointUbication);
                                 SubirFoto(objeto.getUid(), "Observacion", uriFoto);
                                 databaseReference.child("Organismo").child(objeto.getUid()).setValue(objeto);
@@ -352,6 +375,9 @@ public class formularios extends AppCompatActivity implements Serializable {
                                     p.setLugar(password);
                                     p.setCantidad(canti);
                                     p.setFecha(fecha);
+                                    p.setCatalogo(catalogo);
+                                    p.setPhylum(phylum);
+                                    p.setOrden(orden);
                                     p.setUbicacion(pointUbication);
                                     SubirFoto(p.getUid(), "Observacion", uriFoto);
                                     databaseReference.child("Organismo").child(p.getUid()).setValue(p);
@@ -394,6 +420,9 @@ public class formularios extends AppCompatActivity implements Serializable {
         String app = appP.getText().toString();
         String canti= cantiO.getText().toString();
         String fecha= fechaO.getText().toString();
+        String catalogo = Catalogo.getText().toString();
+        String phylum = Phylum.getText().toString();
+        String orden= Orden.getText().toString();
         if (nombre.equals("")){
             nomP.setError("Required");
         }
@@ -411,6 +440,15 @@ public class formularios extends AppCompatActivity implements Serializable {
         }
         else if (fecha.equals("")){
             fechaO.setError("Required");
+        }
+        else if (catalogo.equals("")){
+            Catalogo.setError("Required");
+        }
+        else if (phylum.equals("")){
+            Phylum.setError("Required");
+        }
+        else if (orden.equals("")){
+            Orden.setError("Required");
         }
         else if(!imagenTomada){
             AlertDialog.Builder dialogo1 = new AlertDialog.Builder(this);
