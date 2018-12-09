@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BioLabCloud.iml" filepath="$PROJECT_DIR$/BioLabCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BioLabCloud-mapDesign.iml" filepath="$PROJECT_DIR$/BioLabCloud-mapDesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Lloyder\\Documents\\GitHub\\BioLabCloud\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs\\values-bs.xml",
+            "outputFile": "C:\\Users\\Lloyder\\Downloads\\BioLabCloud-mapDesign (1)\\BioLabCloud-mapDesign\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs\\values-bs.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\Lloyder\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.1.0.aar\\7f9eef0795768bb59778d36c0b95f839\\res\\values-bs\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "205",
-                        "endColumns": "99",
-                        "endOffsets": "304"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4587",
-                        "endColumns": "103",
-                        "endOffsets": "4686"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Lloyder\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\5b72f5e43a9741f0252924f83d829deb\\res\\values-bs\\values-bs.xml",
                     "from": {
@@ -30,28 +13,11 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "39",
+                        "startLines": "38",
                         "startColumns": "4",
-                        "startOffsets": "4775",
+                        "startOffsets": "4671",
                         "endColumns": "100",
-                        "endOffsets": "4871"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Lloyder\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\e6720ecf3e885a0de6e3562f1ac15854\\res\\values-bs\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "199",
-                        "endOffsets": "446"
-                    },
-                    "to": {
-                        "startLines": "27",
-                        "startColumns": "4",
-                        "startOffsets": "3052",
-                        "endColumns": "199",
-                        "endOffsets": "3247"
+                        "endOffsets": "4767"
                     }
                 },
                 {
@@ -64,15 +30,15 @@
                         "endOffsets": "219,328,435,521,625,747,829,910,996,1099,1204,1302,1407,1520,1625,1800,1897,1981"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,38",
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,37",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,224,333,440,526,630,752,834,915,1001,1104,1209,1307,1412,1525,1630,1805,4691",
+                        "startOffsets": "105,224,333,440,526,630,752,834,915,1001,1104,1209,1307,1412,1525,1630,1805,4587",
                         "endColumns": "118,108,106,85,103,121,81,80,85,102,104,97,104,112,104,174,96,83",
-                        "endOffsets": "219,328,435,521,625,747,829,910,996,1099,1204,1302,1407,1520,1625,1800,1897,4770"
+                        "endOffsets": "219,328,435,521,625,747,829,910,996,1099,1204,1302,1407,1520,1625,1800,1897,4666"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lloyder\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\b7e5bbc8e9688788f3ad1a48545cc8c2\\res\\values-bs\\values.xml",
+                    "source": "C:\\Users\\Lloyder\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\c0f3542b2eccb4575fad8fd4f982fdc6\\res\\values-bs\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -86,6 +52,23 @@
                         "startOffsets": "1902,2010,2202,2330,2442,2651,2779,2921,3252,3465,3574,3766,3895,4104,4280,4378,4473",
                         "endColumns": "107,191,127,111,208,127,141,130,212,108,191,128,208,175,97,94,113",
                         "endOffsets": "2005,2197,2325,2437,2646,2774,2916,3047,3460,3569,3761,3890,4099,4275,4373,4468,4582"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Lloyder\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.1.0.aar\\09a0850cb0c21bc740a7689faf4f07a7\\res\\values-bs\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "199",
+                        "endOffsets": "446"
+                    },
+                    "to": {
+                        "startLines": "27",
+                        "startColumns": "4",
+                        "startOffsets": "3052",
+                        "endColumns": "199",
+                        "endOffsets": "3247"
                     }
                 }
             ]

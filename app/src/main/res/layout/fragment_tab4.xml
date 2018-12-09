@@ -1,7 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
-</ScrollView>
+    <LinearLayout
+        android:id="@+id/chatTopView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/chat_top_view"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/girl2"
+            />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="Ro Bot"
+            />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text='@Bot Asistente de BioLabCloud'
+                />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/tv_chat_display"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/chatTopView"
+        android:layout_above="@+id/user_statement_container">
+
+    </android.support.v7.widget.RecyclerView>
+   <!-- <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_above="@+id/user_statement_container">
+
+        <TextView
+            android:id="@+id/tv_chat_display"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+    </ScrollView>-->
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/user_statement_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:elevation="3dp"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:theme="@style/editTextTheme"
+        >
+
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_user_statement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pregunta a Ro:"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textSize="20sp"
+            android:imeOptions="actionDone"
+            android:inputType="textShortMessage"
+            android:theme="@style/editTextTheme"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+</RelativeLayout>

@@ -14,8 +14,6 @@ public class Adaptador extends BaseAdapter {
 
     private static LayoutInflater inflater = null;
 
-
-
     Context contexto;
     String[][] datos;
     int[] datosImg;

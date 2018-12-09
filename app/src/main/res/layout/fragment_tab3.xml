@@ -1,21 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:orientation="vertical"
     >
 
     <!-- TODO: Update blank fragment layout -->
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center"
-        >
-<!-- Aquí va el contenido -->
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            app:titleTextColor="@color/white"
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/et_buscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/SearchViewStyle"
+            android:inputType="textPersonName"
+            android:gravity="right"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Organismos"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        />
+    <Button
+        android:textColor="#FFFFFF"
+        android:textSize="0sp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="6dp"
+
+        android:layout_width="150dp"
+        android:layout_height="2dp"
+        android:background="@drawable/line"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        />
+
+    <ListView
+        android:id="@+id/lv_datosPersonas"
+        android:layout_width="match_parent"
+        style="@style/TextColor"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorHighlight="@color/white"
+        android:layout_height="match_parent" />
 
 </LinearLayout>
-</ScrollView>

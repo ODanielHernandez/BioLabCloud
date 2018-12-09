@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background2"
+    tools:context=".Ayudas.ayudaBIOLAB">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Ayuda en BIOLAB"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            />
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="0sp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="4dp"
+
+            android:layout_width="200dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Agregar Nuevo Organismo"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            />
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="0sp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="4dp"
+
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            />
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/handchart"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="1.-Pulsar el icono de (+) situado en la esquina superior derecha"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="2.- Llenar todos los campos del formulario, tomar una fotografía y seleccionar una ubicación.."
+                    android:textColor="@color/white"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="3.- Pulsar el icono en forma de checklist."
+                    android:textColor="@color/white"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="4.- Si quieres cancelar esta acción de adición solo selecciona el icono de (x)."
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="0sp"
+            android:layout_marginTop="6dp"
+
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/touch"
+                android:layout_gravity="center"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Buscar organismo en la lista"
+                    android:textSize="22dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="1.-Pulsar el icono de."
+                    android:textColor="@color/white"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="2.-Escribir el nombre del organismo para que se filtre en la lista."
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="0sp"
+            android:layout_marginTop="15dp"
+
+            android:layout_width="200dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Ver Informacion del organismo"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            />
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="0sp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="4dp"
+
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            />
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/humidor"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="1.- Pulsa sobre un organismo dentro de la lista."
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="2.- Si quieres regresar a la lista de todos los organismos pulsa el icono de retorno"
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="0sp"
+            android:layout_marginTop="6dp"
+
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            >
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/maintenance"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Editar información de un organismo"
+                    android:textSize="22dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textAlignment="center"
+                    android:text="1.- Dejar pulsado el dedo sobre el organismo dentro de la lista, esto mostrará un mensaje."
+                    android:textColor="@color/white"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textAlignment="center"
+                    android:text="2.- Seleccionar la opción “Editar”."
+                    android:textColor="@color/white"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textAlignment="center"
+                    android:text="3.- Cambiar la información necesaria del organismo."
+                    android:textColor="@color/white"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textAlignment="center"
+                    android:text="4.- Pulsar el icono de () y listo, los cambios se guardarán."
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="0sp"
+            android:layout_marginTop="6dp"
+
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            >
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/maintenance"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Eliminar un organismo"
+                    android:textSize="22dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textAlignment="center"
+                    android:text="1.- Dejar pulsado el dedo sobre el organismo dentro de la lista, esto mostrará un mensaje."
+                    android:textColor="@color/white"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textAlignment="center"
+                    android:text="2.- Seleccionar la opción “Eliminar”."
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
